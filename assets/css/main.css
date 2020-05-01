@@ -27,6 +27,10 @@ body {
 	line-height: 1;
 }
 
+h4 { 
+	font-style: italic;
+}
+
 ol, ul {
 	list-style: none;
 }
