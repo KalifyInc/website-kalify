@@ -117,6 +117,41 @@ input, select, textarea {
 
 /* Type */
 
+#circleKalify {
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	margin-left: auto;
+	margin-top: -40px;
+	margin-bottom: 80px;
+	margin-right: auto;
+	box-shadow:
+	  0 0 20px #fff,
+	  -20px 0 80px #f0f,
+	  20px 0 80px #0ff,
+	  inset 0 0 50px #fff,
+	  inset 50px 0 80px #f0f,
+	  inset -50px 0 80px #0ff,
+	  inset 50px 0 300px #f0f,
+	  inset -50px 0 300px #0ff;
+	animation: pulsate 6s linear infinite;
+	
+  }
+  
+  @keyframes pulsate {
+	50% {
+	  box-shadow:
+		0 0 20px #fff,
+		20px 0 80px #f0f,
+		-20px 0 80px #0ff,
+		inset 0 0 50px #fff,
+		inset -50px 0 80px #f0f,
+		inset 50px 0 80px #0ff,
+		inset -50px 0 300px #f0f,
+		inset 50px 0 300px #0ff;
+	}
+  }
+
 	body {
 		background-color: #935d8c;
 		color: rgba(255, 255, 255, 0.65);
@@ -192,10 +227,11 @@ input, select, textarea {
 		}
 
 	h1, h2, h3, h4, h5, h6 {
-		font-weight: 300;
+		font-weight: 200;
 		line-height: 1.5;
 		margin: 0 0 0.7em 0;
 		letter-spacing: -0.025em;
+		font-family: Roboto;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
