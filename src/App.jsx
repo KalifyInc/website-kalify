@@ -2,15 +2,15 @@ import AppDetails from "./components/AppDetails"
 import Navigation from "./components/Navigation"
 import Content from "./components/Content"
 
-import VideoBackground from 'src/assets/home.webm'
+import VideoBackground from '../src/assets/home.webm'
 
 function App() {
 
     return (
         <AppDetails>
             <div className="header">
-                <video id="background-video" autoPlay loop muted>
-                    <source src={VideoBackground} type="video/mp4"/>
+                <video id="background-video" autoPlay loop muted preload='auto'>
+                    <source src={VideoBackground} type="video/webm"/>
                 </video>
 
                 <div className="navigation">
@@ -29,10 +29,10 @@ function App() {
                 </div>
 
                 <div className="socialmedia">
-                    <a href="https://instagram.com/yagasaki.dev" target="_blank"><i class="uil uil-instagram"></i></a>
-                    <a href="https://twitter.com/KalifyInc" target="_blank"><i class="uil uil-twitter"></i></a>
-                    <a href="https://github.com/ApertureLaboratory" target="_blank"><i class="uil uil-github"></i></a>
-                    <a href="https://discord.gg/nyTRNSV" target="_blank"><i class="uil uil-club"></i></a>
+                    <a href="https://instagram.com/yagasaki.dev" target="_blank"><i className="uil uil-instagram"></i></a>
+                    <a href="https://twitter.com/KalifyInc" target="_blank"><i className="uil uil-twitter"></i></a>
+                    <a href="https://github.com/ApertureLaboratory" target="_blank"><i className="uil uil-github"></i></a>
+                    <a href="https://discord.gg/nyTRNSV" target="_blank"><i className="uil uil-club"></i></a>
                 </div>
             </div>
 

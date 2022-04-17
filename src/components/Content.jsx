@@ -1,6 +1,5 @@
 import React from 'react'
 import AppDetails from './AppDetails'
-import Yagasaki7K from 'https://github.com/Yagasaki7k.png'
 import PicArthur from '/src/assets/pic03.jpg'
 import BgKalify from '/src/assets/pic07.jpg'
 import BgPied from '/src/assets/pic04.png'
@@ -40,7 +39,7 @@ const Content = () => {
                     <h2>A Equipe</h2>
 
                     <div className="img-crew">
-                        <img src={Yagasaki7K}></img>
+                        <img src="https://github.com/Yagasaki7k.png"></img>
                     </div>
 
                     <div className="content-crew">
