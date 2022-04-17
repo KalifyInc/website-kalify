@@ -2,13 +2,15 @@ import AppDetails from "./components/AppDetails"
 import Navigation from "./components/Navigation"
 import Content from "./components/Content"
 
+import VideoBackground from 'src/assets/home.webm'
+
 function App() {
 
     return (
         <AppDetails>
             <div className="header">
                 <video id="background-video" autoPlay loop muted>
-                    <source src="/src/assets/home.webm" type="video/mp4"/>
+                    <source src={VideoBackground} type="video/mp4"/>
                 </video>
 
                 <div className="navigation">
@@ -23,8 +25,6 @@ function App() {
                             entregamos experiências e soluções digitais que 
                             evoluem e inspiram pessoas e comunidades
                         </h4>
-
-                        
                     </div>
                 </div>
 

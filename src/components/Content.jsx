@@ -1,5 +1,9 @@
 import React from 'react'
 import AppDetails from './AppDetails'
+import Yagasaki7K from 'https://github.com/Yagasaki7k.png'
+import PicArthur from '/src/assets/pic03.jpg'
+import BgKalify from '/src/assets/pic07.jpg'
+import BgPied from '/src/assets/pic04.png'
 
 const Content = () => {
     return (
@@ -30,13 +34,13 @@ const Content = () => {
                         para criar aplicações de código aberto e que ajudem a comunidade a crescer e produzir
                         aplicações e ideias que ajudem a sociedade.
                     </p>
-                    <img src="/src/assets/pic07.jpg" alt="kalify-tech" />
+                    <img src={BgKalify} alt="kalify-tech" />
                 </div>
                 <div className="kalifycrew" id="sobre-nos">
                     <h2>A Equipe</h2>
 
                     <div className="img-crew">
-                        <img src="https://github.com/Yagasaki7k.png"></img>
+                        <img src={Yagasaki7K}></img>
                     </div>
 
                     <div className="content-crew">
@@ -60,7 +64,7 @@ const Content = () => {
                     </div>
 
                     <div className="img-crew spacing disabled">
-                        <img src="/src/assets/pic03.jpg"></img>
+                        <img src={PicArthur}></img>
                     </div>
 
                     <div className="content-crew disabled">
@@ -83,7 +87,7 @@ const Content = () => {
                         </p>
                     </div>
 
-                    <img src="/src/assets/pic04.png" className="banner" alt="kalify-tech" />
+                    <img src={BgPied} className="banner" alt="kalify-tech" />
 
                     <div className="copyright">
                         <p>

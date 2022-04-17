@@ -1,11 +1,12 @@
 import React from 'react'
 import NavDetails from './NavDetails'
+import Logo from '/src/assets/logo.png'
 
 const Navigation = () => {
     return (
         <NavDetails>
             <a href="/">
-                <img src="/src/assets/logo.png" alt="logo" />
+                <img src={Logo} alt="logo" />
             </a>
 
             <div className="items">
