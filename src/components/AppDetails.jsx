@@ -66,15 +66,17 @@ const AppDetails = styled.div`
         }
 
         .title {
-            margin: 200px 0 0 50px;
+            margin: 200px 0 0 20px;
 
             h2 {
                 font-size: 50px;
                 width: 700px;
+                margin-left: -20px;
             }
 
             h4 {
                 width: 600px;
+                margin-left: -20px;
             }
         }
     }
@@ -166,7 +168,7 @@ const AppDetails = styled.div`
 
     @media screen and (max-width: 768px) {
         .socialmedia {
-            margin: 100px 0 0 460px;
+            margin: 100px 0 0 440px;
 
             i {
                 font-size: 30px;

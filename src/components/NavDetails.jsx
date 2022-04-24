@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 const AppDetails = styled.div`
-    margin: 20px 0 0 0px;
+    margin: 20px 0 0 0;
     display: flex;
     transition: visibility .6s,opacity .6s;
     width: 100%;
@@ -86,8 +86,12 @@ const AppDetails = styled.div`
         }
     }
 
-    @media screen and (max-width:768px) {
+    @media screen and (max-width: 768px) {
         margin: 50px 0 0 280px;
+
+        img {
+            margin-left: -10px;
+        }
 
         .items {
             display: none;
@@ -98,7 +102,7 @@ const AppDetails = styled.div`
         }
     }
     
-    @media screen and (max-width:600px) {
+    @media screen and (max-width: 600px) {
         margin: 50px 0 0 200px;
     }
 
