@@ -1,18 +1,17 @@
 import React from 'react'
-import AppDetails from './AppDetails'
+import ContentDetails from './ContentDetails'
 import PicArthur from '/src/assets/pic03.jpg'
 import BgKalify from '/src/assets/pic07.jpg'
 import BgPied from '/src/assets/pic04.png'
 
 const Content = () => {
     return (
-        <AppDetails>
+        <ContentDetails>
             <div className="content">
-                <div className="circle-centralized">
-                    <div className="circleKalify" />
-                </div>
-
                 <div className="kalifytech" id="sobre-nos">
+                    <div className="circle-centralized">
+                        <div className="circleKalify" />
+                    </div>
                     <h2>Tecnologia da Kalify</h2>
                     <p>
                         Em sua ideia original, a Kalify era uma produtora de jogos para
@@ -35,17 +34,20 @@ const Content = () => {
                     </p>
                     <img src={BgKalify} alt="kalify-tech" />
                 </div>
+                
                 <div className="kalifycrew" id="sobre-nos">
                     <h2>A Equipe</h2>
 
                     <div className="img-crew">
-                        <img src="https://github.com/Yagasaki7k.png"></img>
+                        <a href="https://yagasaki.netlify.com/" target="_blank">
+                            <img src="https://github.com/Yagasaki7k.png"></img>
+                        </a>
                     </div>
 
                     <div className="content-crew">
                         <strong>Anderson Marlon</strong> <br /><br />
                         <i>"Yagasaki/Tuim/Dog/Drift King/Caótico Neutro"</i> <br /><br />
-                        <b>Founder/CEO</b> <br />
+                        <b>Fundador/CEO</b> <br />
                         <p>
                             Nascido em Campinas, interior de São Paulo. Desenvolvedor Front-end,
                             possuí formação no curso de Introdução a Ciências da Computação (CS50) da
@@ -71,18 +73,15 @@ const Content = () => {
                         <i>"Animatrix/Wicked"</i> <br /><br />
                         <b>Co-Fundador/COO</b> <br />
                         <p>
-                            Nascido em Campinas, interior de São Paulo. Nascido e residente
-                            em Campinas, interior de São Paulo, atualmente é
+                            Nascido e residente em Campinas, interior de São Paulo, atualmente é
                             Analista de Crédito da WestRock Brasil, tem sido Estagiário
                             de administração com foco em RH na GGTE, Management Group
-                            Tecnologias Educacionais na UNICAMP, Auxiliar Administrativo
+                            Tecnologias Educacionais na UNICAMP, Auxiliar Administrativo no
                             Centro de Tecnologia da Informação e Renato Archer, Instrutor
-                            de Informática pela Acessa Escola. Possui certificado de
-                            bacharelado Doutor em Administração de Empresas pela
-                            Universidade Presbeteriana Mackenzie.
+                            de Informática pela Acessa Escola. 
                         </p>
                         <p>
-                            Bacharel em Administração de Empresas pela Mackenzie
+                            Bacharel em Administração de Empresas pela Universidade da Mackenzie
                         </p>
                     </div>
 
@@ -95,7 +94,7 @@ const Content = () => {
                     </div>
                 </div>
             </div>
-        </AppDetails>
+        </ContentDetails>
     )
 }
 
