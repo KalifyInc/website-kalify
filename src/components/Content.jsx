@@ -10,7 +10,7 @@ const Content = () => {
             <div className="content">
                 <div className="kalifytech" id="sobre-nos">
                     <div className="circle-centralized">
-                        <div className="circleKalify" />
+                        {/* <div className="circleKalify" /> */}
                     </div>
                     <h2>Tecnologia da Kalify</h2>
                     <p>
@@ -34,7 +34,7 @@ const Content = () => {
                     </p>
                     <img src={BgKalify} alt="kalify-tech" />
                 </div>
-                
+
                 <div className="kalifycrew" id="sobre-nos">
                     <h2>A Equipe</h2>
 
