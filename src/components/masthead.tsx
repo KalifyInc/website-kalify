@@ -32,7 +32,7 @@ const MastHead: React.FC = () => {
 			</video>
 			<div className="masthead-content">
 				<div className={`masthead-content__logo ${imageLoaded ? "logo-active" : "logo-unactive"}`}>
-					<img src="Margelo/assets/logo.png" width={128} height={128}/>
+					<img src="Margelo/assets/logo.png" width={128} height={128} alt="Logo"/>
 				</div>
 				<div>
 					<h1 className="masthead-content__title">Kalify Inc.</h1>
