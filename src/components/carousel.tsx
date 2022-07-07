@@ -1,5 +1,3 @@
-// eslint-disable-next-line
-
 import React, { useEffect, useRef, useState } from "react";
 import useEmblaCarousel, { EmblaCarouselType } from 'embla-carousel-react'
 import Autoplay from "embla-carousel-autoplay";

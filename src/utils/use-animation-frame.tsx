@@ -1,4 +1,3 @@
-// eslint-disable-next-line
 import { useEffect, useRef } from "react";
 
 export const useAnimationFrame = (enabled: boolean, callback: () => void) => {
