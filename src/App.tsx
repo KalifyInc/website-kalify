@@ -1,7 +1,7 @@
 import MastHead from "./components/masthead";
 import AboutUs from "./components/about-us";
 import Skills from "./components/skills";
-// import Works from "./components/works";
+import Works from "./components/works";
 import LogoClients from "./components/logo-clients";
 import LogoClientsBottom from "./components/logo-clients-bottom";
 import Testtimonial from "./components/testimonial";

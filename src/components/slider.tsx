@@ -22,7 +22,7 @@ const SliderContainer: React.FC<Props> = ({
 	const refScrollX = useRef<number>(initalOffsetX);
 
 	let enabled = false;
-	if (innerWidth !== 0) {
+	if (innerWidth != 0) {
 		enabled = innerWidth < contentWidth;
 	}
 
