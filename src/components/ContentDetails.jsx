@@ -101,6 +101,7 @@ const ContentDetails = styled.div`
                 width: 150px;
                 margin-left: -80px;
                 margin-top: 10px;
+                border-radius: 50%;
             }
 
             .content-crew {
