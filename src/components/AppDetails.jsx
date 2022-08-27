@@ -31,6 +31,26 @@ const AppDetails = styled.div`
         font-size: 50px;
         margin: 100px 0 0 300px;
 
+        .buttonSignUp {
+            width: 280px;
+            padding: 25px;
+            margin-top: 1rem;
+            background: transparent;
+            border: 2px solid #915095;
+            color: #915095;
+            font-size: 1rem;
+            font-weight: bold;
+            text-decoration: none;
+            text-transform: uppercase;
+            cursor: pointer;
+
+            :hover {
+                color: #fff;
+                transition: 1s;
+                background: #915095;
+            }
+        }
+
         h2 {
             font-weight: 400;
             font-size: 60px;

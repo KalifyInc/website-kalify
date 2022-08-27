@@ -61,61 +61,6 @@ const ContentDetails = styled.div`
                 margin-left: -100px;
                 margin-top: 20px;
             }
-
-            @media screen and (min-width: 1920px) {
-                .kalifycrew {
-                    margin-left: 500px;
-                }
-            }
-        }
-
-        .disabled {
-            filter: opacity(0.2);
-        }
-
-        .kalifycrew {
-            margin-left: 300px;
-            padding-top: 50px;
-            color: #e5e5e5;
-
-            h2 {
-                text-transform: uppercase;
-                font-size: 30px;
-                margin-left: -80px;
-            }
-
-            strong {
-                text-transform: uppercase;
-            }
-
-            i {
-                font-size: 16px;
-            }
-
-            p {
-                width: 800px;
-                margin-top: 20px;
-            }
-
-            .img-crew img {
-                width: 150px;
-                margin-left: -80px;
-                margin-top: 10px;
-                border-radius: 50%;
-            }
-
-            .content-crew {
-                margin-top: -160px;
-                margin-left: 90px;
-
-                p {
-                    width: 750px;
-                }
-            }
-
-            .spacing {
-                margin-top: 80px;
-            }
         }
 
         .banner {
@@ -139,10 +84,6 @@ const ContentDetails = styled.div`
             .kalifytech {
                 margin-left: 560px;
             }
-            
-            .kalifycrew {
-                margin-left: 500px;
-            }
         }
 
         @media screen and (max-width: 1024px) {
@@ -159,21 +100,6 @@ const ContentDetails = styled.div`
                     margin-left: -80px;
                 }
             }
-
-            .kalifycrew {
-                margin-left: 170px;
-
-                .content-crew {
-                    p {
-                        width: 700px;
-                    }
-                }
-
-                .banner {
-                    margin-left: -150px;
-                }
-            }
-
         }
 
         @media screen and (max-width: 768px) {
@@ -188,25 +114,6 @@ const ContentDetails = styled.div`
                 img {
                     width: 650px;
                     margin-left: -10px;
-                }
-            }
-
-            .kalifycrew {
-                margin-left: 150px;
-
-                .content-crew {
-                    p {
-                        width: 450px;
-                    }
-                }
-
-                .banner {
-                    margin-left: -120px;
-                    width: 700px;
-                }
-
-                .copyright {
-                    margin-left: -50px;
                 }
             }
         }
@@ -225,20 +132,6 @@ const ContentDetails = styled.div`
                     width: 500px;
                 }
             }
-
-            .kalifycrew {
-                margin-left: 120px;
-
-                .content-crew {
-                    p {
-                        width: 350px;
-                    }
-                }
-
-                .copyright {
-                    margin-left: -80px;
-                }
-            }
         }
 
         @media screen and (max-width: 414px) {
@@ -251,25 +144,6 @@ const ContentDetails = styled.div`
 
                 img {
                     width: 360px;
-                }
-            }
-
-            .kalifycrew {
-                margin-left: 100px;
-
-                .content-crew {
-                    margin-left: -80px;
-                    margin-top: 0;
-                }
-
-                .banner {
-                    margin-left: -80px;
-                    margin-bottom: 20px;
-                    width: 360px;
-                }
-
-                .copyright {
-                    display: none;
                 }
             }
         }
@@ -293,29 +167,6 @@ const ContentDetails = styled.div`
                     width: 320px;
                 }
             }
-
-            .kalifycrew {
-                margin-left: 100px;
-
-                .content-crew {
-                    margin-left: -80px;
-                    margin-top: 0;
-                    
-                    p {
-                        width: 300px;
-                    }
-                }
-
-                .banner {
-                    margin-left: -80px;
-                    margin-bottom: 20px;
-                    width: 320px;
-                }
-
-                .copyright {
-                    display: none;
-                }
-            }
         }
 
         @media screen and (max-width: 320px){
@@ -325,18 +176,6 @@ const ContentDetails = styled.div`
                 }
 
                 img {
-                    width: 270px;
-                }
-            }
-
-            .kalifycrew {
-                .content-crew {
-                    p {
-                        width: 250px;
-                    }
-                }
-
-                .banner {
                     width: 270px;
                 }
             }
@@ -361,6 +200,60 @@ const ContentDetails = styled.div`
         .content {
             margin-top: 100px;
         }
+    }
+
+    .kalifycrew {
+        margin-left: 350px;
+        padding-top: 50px;
+        color: #e5e5e5;
+
+        @media (max-width: 1366px) {
+            margin-left: 150px;
+        }
+
+        h2 {
+            text-transform: uppercase;
+            font-size: 30px;
+            margin-left: 25px;
+        }
+
+        strong {
+            text-transform: uppercase;
+        }
+
+        i {
+            font-size: 16px;
+        }
+
+        p {
+            width: 800px;
+            margin-top: 20px;
+        }
+
+        .img-crew img {
+            width: 150px;
+            margin-left: 20px;
+            margin-top: 10px;
+            border-radius: 50%;
+        }
+
+        .content-crew {
+            margin-top: -160px;
+            margin-left: 200px;
+
+            p {
+                width: 750px;
+                margin-left: 0px;
+            }
+        }
+
+        .spacing {
+            margin-top: 80px;
+        }
+    }
+
+    .disabled {
+        filter: opacity(0.2);
     }
 `
 
