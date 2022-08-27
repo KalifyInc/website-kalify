@@ -29,16 +29,16 @@ const AppDetails = styled.div`
         align-items: left;
         flex-direction: column;
         font-size: 50px;
-        margin: 100px 0 0 300px;
+        margin: 50px 0 0 300px;
 
         .buttonSignUp {
-            width: 280px;
-            padding: 25px;
+            width: 250px;
+            padding: 20px;
             margin-top: 1rem;
             background: transparent;
             border: 2px solid #915095;
             color: #915095;
-            font-size: 1rem;
+            font-size: 0.9rem;
             font-weight: bold;
             text-decoration: none;
             text-transform: uppercase;
