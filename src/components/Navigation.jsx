@@ -3,7 +3,7 @@ import NavDetails from './NavDetails'
 import Logo from '/src/assets/logo.png'
 
 function redirectDiscord() {
-    window.open('https://discord.gg/CFhzRE6ztp', "_blank");
+    window.open('https://discord.gg/jhSepmE7nN', "_blank");
 }
 
 const Navigation = () => {

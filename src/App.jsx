@@ -33,7 +33,7 @@ function App() {
                     <a href="https://instagram.com/yagasaki.dev" target="_blank"><i className="uil uil-instagram"></i></a>
                     <a href="https://twitter.com/KalifyInc" target="_blank"><i className="uil uil-twitter"></i></a>
                     <a href="https://github.com/KalifyInc" target="_blank"><i className="uil uil-github"></i></a>
-                    <a href="https://discord.gg/CFhzRE6ztp" target="_blank"><i className="uil uil-club"></i></a>
+                    <a href="https://discord.gg/jhSepmE7nN" target="_blank"><i className="uil uil-club"></i></a>
                 </div>
             </div>
 
