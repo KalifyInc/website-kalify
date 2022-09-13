@@ -49,6 +49,10 @@ const AppDetails = styled.div`
                 transition: 1s;
                 background: #915095;
             }
+
+            @media (max-width: 768px) {
+                margin-left: 1.2rem;
+            }
         }
 
         h2 {
@@ -68,19 +72,19 @@ const AppDetails = styled.div`
 
     /* HEADER - TITLE */
 
-    @media screen and (min-width: 1920px) {
+    @media (min-width: 1920px) {
         .title {
             margin: 200px 0 0 300px;
         }
     }
 
-    @media screen and (max-width: 1024px) {
+    @media (max-width: 1024px) {
         .title {
             margin: 200px 0 0 100px;
         }
     }
 
-    @media screen and (max-width: 768px) {
+    @media (max-width: 768px) {
         .header {
             width: 100px;
         }
@@ -101,7 +105,7 @@ const AppDetails = styled.div`
         }
     }
 
-    @media screen and (max-width: 600px) {
+    @media (max-width: 600px) {
         .title {
             margin: 150px 0 0 50px;
 
@@ -116,7 +120,7 @@ const AppDetails = styled.div`
         }
     }
 
-    @media screen and (max-width: 414px) {
+    @media (max-width: 414px) {
         .title {
             margin: 125px 0 0 50px;
 
@@ -133,7 +137,7 @@ const AppDetails = styled.div`
         }
     }
 
-    @media screen and (max-width: 375px) {
+    @media (max-width: 375px) {
         .title {
             margin: 100px 0 0 50px;
 
@@ -150,7 +154,7 @@ const AppDetails = styled.div`
         }
     }
 
-    @media screen and (max-width:320px) {
+    @media (max-width:320px) {
         .title {
             margin: 50px 0 0 30px;
         }
@@ -176,7 +180,7 @@ const AppDetails = styled.div`
 
     /* SOCIAL MEDIA ICONS */
 
-    @media screen and (min-width: 1920px) {
+    @media (min-width: 1920px) {
         .socialmedia {
             margin: 50px 100px 0 0;
 
@@ -186,35 +190,34 @@ const AppDetails = styled.div`
         }
     }
 
-    @media screen and (max-width: 768px) {
+    @media (max-width: 768px) {
         .socialmedia {
-            margin: 100px 0 0 440px;
-
             i {
+                margin-left: 0.5rem;
                 font-size: 30px;
             }
         }
     }
 
-    @media screen and (max-width: 600px) {
+    @media (max-width: 600px) {
         .socialmedia {
             margin: 100px 0 0 400px;
         }
     }
 
-    @media screen and (max-width: 414px) {
+    @media (max-width: 414px) {
         .socialmedia {
             margin: 50px 0 0 320px;
         }
     }
 
-    @media screen and (max-width: 375px) {
+    @media (max-width: 375px) {
         .socialmedia {
             margin: 50px 0 0 290px;
         }
     }
 
-    @media screen and (max-width: 320px) {
+    @media (max-width: 320px) {
         .socialmedia {
             margin: 50px 0 0 260px;
         }

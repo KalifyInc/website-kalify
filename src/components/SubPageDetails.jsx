@@ -52,6 +52,13 @@ const SubPageDetails = styled.div`
                 margin-left: -2rem;
             }
         }
+
+        @media (max-width: 768px) {
+            img, h1, p, h3, i, .description {
+                margin-left: -3rem;
+                width: 23rem;
+            }
+        }
     }
 `
 
