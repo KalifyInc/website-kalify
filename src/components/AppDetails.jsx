@@ -32,7 +32,7 @@ const AppDetails = styled.div`
         margin: 50px 0 0 300px;
 
         .buttonSignUp {
-            width: 250px;
+            width: 260px;
             padding: 20px;
             margin-top: 1rem;
             background: transparent;
@@ -51,7 +51,7 @@ const AppDetails = styled.div`
             }
 
             @media (max-width: 768px) {
-                margin-left: 1.2rem;
+                margin-left: -1rem;
             }
         }
 
@@ -90,7 +90,7 @@ const AppDetails = styled.div`
         }
 
         .title {
-            margin: 200px 0 0 20px;
+            margin: 50px 0 0 60px;
 
             h2 {
                 font-size: 50px;
@@ -107,7 +107,7 @@ const AppDetails = styled.div`
 
     @media (max-width: 600px) {
         .title {
-            margin: 150px 0 0 50px;
+            margin: 50px 0 0 50px;
 
             h2 {
                 font-size: 40px;
@@ -122,7 +122,7 @@ const AppDetails = styled.div`
 
     @media (max-width: 414px) {
         .title {
-            margin: 125px 0 0 50px;
+            margin: 50px 0 0 50px;
 
             h2 {
                 font-size: 30px;
@@ -139,7 +139,7 @@ const AppDetails = styled.div`
 
     @media (max-width: 375px) {
         .title {
-            margin: 100px 0 0 50px;
+            margin: 50px 0 0 50px;
 
             h2 {
                 font-size: 30px;
