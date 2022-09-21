@@ -6,7 +6,7 @@ const SubPageDetails = styled.div`
         width: 93rem;
 
         @media (max-width: 1366px) {
-            width: 80rem;
+            width: 74rem;
         }
 
         img, h1, p, h3, i {
