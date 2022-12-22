@@ -4,17 +4,21 @@ import Content from "./components/Content"
 
 import VideoBackground from '../src/assets/home.webm'
 
+import Clients from "./components/Clients"
+import Team from "./components/Team"
+import Projects from "./components/Projects"
+
 function App() {
 
     return (
         <AppDetails>
             <div className="header">
                 <video id="background-video" autoPlay loop muted preload='auto'>
-                    <source src={VideoBackground} type="video/webm"/>
+                    <source src={VideoBackground} type="video/webm" />
                 </video>
 
                 <div className="navigation">
-                    <Navigation/>
+                    <Navigation />
                 </div>
 
                 <div className="title">
@@ -22,7 +26,7 @@ function App() {
                         <h2>Desenvolvemos soluções através da tecnologia</h2>
                         <h4>
                             Com nossos serviços e ideais
-                            entregamos experiências e soluções digitais que 
+                            entregamos experiências e soluções digitais que
                             evoluem e inspiram pessoas e comunidades
                         </h4>
                     </div>
@@ -37,7 +41,10 @@ function App() {
                 </div>
             </div>
 
-            <Content/>
+            <Content />
+            <Clients />
+            <Projects />
+            <Team />
             {/* <Projects/>
             <Culture/>
             <Carrer/>

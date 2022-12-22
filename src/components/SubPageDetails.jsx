@@ -1,8 +1,12 @@
 import styled from 'styled-components'
 
 const SubPageDetails = styled.div`
+    background:#181a1b;
     .content {
-        padding: 4rem 0 2rem 4rem;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 2rem 0 2rem 4rem;
         width: 93rem;
 
         @media (max-width: 1366px) {

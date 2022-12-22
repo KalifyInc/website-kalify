@@ -14,10 +14,10 @@ const Navigation = () => {
             </a>
 
             <div className="items">
-                <a className="hover-underline-animation" href="/nossa-historia">Nossa história</a>
-                <a className="hover-underline-animation" href="/clientes">Clientes</a>
-                <a className="hover-underline-animation" href="/equipe">A Equipe</a>
-                <a className="hover-underline-animation" href="/projetos">Projetos</a>
+                <a className="hover-underline-animation" href="#story">Nossa história</a>
+                <a className="hover-underline-animation" href="#clients">Clientes</a>
+                <a className="hover-underline-animation" href="#team">A Equipe</a>
+                <a className="hover-underline-animation" href="#projects">Projetos</a>
                 <a className="hover-underline-animation" href="https://twitter.com/KalifyInc" target="_blank">Twitter</a>
                 <button onClick={redirectDiscord} target="_blank">Vamos conversar!</button>
             </div>
