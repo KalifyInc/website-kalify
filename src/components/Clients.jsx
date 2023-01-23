@@ -9,20 +9,19 @@ const Clients = () => {
                 <img src={BgKalify} alt="kalify-tech" />
                 <h1>Nossa história</h1>
                 <p>
-                    A Kalify Inc surgiu em 2018 como uma marca de desenvolvimento de software. Nossa história vai muito antes disso, começamos lá em 2008, com o surgimento da World Magic RPG, uma equipe de produtora de jogos para criação e entretenimento através do RPG, contando histórias de aventura e fantasia. Após isso surgiu vários outros como HabbyCry, Antech Productions, tudo seguindo a mesma ideia, até surgir a Kindred Publicidades, onde o nosso foco começou em desenvolvimento, dali em diante fomos apenas evoluindo, até se tornar o que é hoje, a Kalify Inc.
+                    A Kalify Inc foi fundada em 2018 como um projeto de desenvolvimento de software, mas nossa história se estende muito além disso. Começamos em 2008 com a criação da World Magic RPG, uma equipe de jogos de RPG que contavam histórias de aventura e fantasia. A partir daí, criamos várias outros projetos, como HabbyCry e Antech Productions, sempre seguindo a mesma ideia, até chegar à Kindred Publicidades, onde nosso foco passou a ser o desenvolvimento. A partir daí, continuamos evoluindo até se tornarmos o que somos hoje, a Kalify Inc.
                 </p>
                 <p>
-                    Com o surgimento do Web Essentials, uma ferramenta que surgiu para simplificar
-                    a vida dos usuários de computadores, e nosso primeiro desenvolvimento, a Kalify surgiu e se responsabilizou por englobar esse e muitos outros projetos como FindYourPet, Jhenny's Book, <s>Aperture Laboratories</s> e colocá-los embaixado das nossas asas, se tornando e formando uma equipe de desenvolvimento por trás da criação de ferramentas para soluções e entretenimento.
+                    Com o surgimento do Web Essentials, uma ferramenta criada para simplificar a vida dos usuários de computadores e nosso primeiro desenvolvimento, a Kalify foi criada e passou a englobar projetos como FindYourPet, Jhenny's Book, Aperture Laboratories e muitos outros, se tornando uma equipe de desenvolvimento de soluções para entretenimento e facilitando a vida das pessoas.
                 </p>
                 <p>
-                    Atualmente, a Kalify é responsável pela criação de soluções através da web com muitos nomes, seja através de um website ou aplicativo para resolver problemas, facilitar vidas ou até mesmo entreter.
+                    Atualmente, a Kalify é responsável por criar soluções através da web, seja através de websites ou aplicativos, com o objetivo de resolver problemas, facilitar a vida das pessoas e entreter.
                 </p>
-                <p>Nosso foco é desenvolver soluções através da tecnologia</p>
+                <p>Nosso foco é desenvolver soluções através da tecnologia.</p>
                 <hr />
                 <h1 style={{ marginTop: '3rem' }} id="clients">Nossos clientes</h1>
                 <p>
-                    Temos uma série de clientes que confiaram e que confiam até hoje em nosso trabalho e no nosso profissionalismo. Prestamos serviços desde a época em que a Kalify se tornou uma marca para nós, um grupo de pessoas trabalhando junto para ajudar pessoas e solucionar problemas através da tecnologia, e bem, desde 2014 a lista não para de crescer, nossos clientes são e já foram:
+                    Temos uma série de clientes que confiam em nosso trabalho e profissionalismo desde que a Kalify se tornou uma marca para nós. Desde 2014, nós, um grupo de pessoas trabalhando juntos, temos ajudado pessoas e solucionado problemas através da tecnologia e a lista de nossos clientes tem crescido constantemente. Nossos clientes atuais e anteriores incluem:
                 </p>
 
                 <p>

@@ -32,7 +32,7 @@ const Equipe = () => {
                                 da AMBEV com a Shawee, Javascript Evangelist e é responsável por várias inovações como Web Essentials, FindYourPet, Jhenny's Book e vários outros pela Kalify Inc.
                             </p>
                             <p>
-                                <u>Desenvolvedor de Software</u> pela Kalify Inc
+                                <u>Desenvolvedor de Software</u> pela Stone Co.
                             </p>
                         </div>
 

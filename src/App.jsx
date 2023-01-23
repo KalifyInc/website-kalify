@@ -30,7 +30,7 @@ function App() {
                             evoluem e inspiram pessoas e comunidades
                         </h4>
                     </div>
-                    <a href="/nossa-historia" className="buttonSignUp">Conheça a nossa história</a>
+                    <a href="#story" className="buttonSignUp">Conheça a nossa história</a>
                 </div>
 
                 <div className="socialmedia">
