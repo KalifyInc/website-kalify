@@ -36,8 +36,8 @@ const AppDetails = styled.div`
             padding: 20px;
             margin-top: 1rem;
             background: transparent;
-            border: 2px solid #915095;
-            color: #915095;
+            border: 2px solid #8753ff;
+            color: #8753ff;
             font-size: 0.9rem;
             font-weight: bold;
             text-decoration: none;
@@ -47,7 +47,7 @@ const AppDetails = styled.div`
             :hover {
                 color: #fff;
                 transition: 1s;
-                background: #915095;
+                background: #8753ff;
             }
 
             @media (max-width: 768px) {
