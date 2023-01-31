@@ -1,6 +1,6 @@
 import React from 'react'
 import ContentDetails from './ContentDetails'
-import BgKalify from '/src/assets/pic07.jpg'
+import BgKalify from '/src/assets/pic07.png'
 
 const Content = () => {
     return (

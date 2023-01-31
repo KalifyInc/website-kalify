@@ -5,7 +5,6 @@ import ContentDetails from './ContentDetails'
 import BgPizza from '../assets/pic04.png'
 import PicArthur from '../assets/pic03.jpg'
 import PicYokaida from '../assets/yokaida.png'
-import PicYagasaki from '../assets/pic02.jpg'
 
 const Equipe = () => {
     return (
@@ -18,7 +17,7 @@ const Equipe = () => {
 
                         <div className="img-crew">
                             <a href="https://yagasaki.vercel.app/" target="_blank">
-                                <img src={PicYagasaki} alt="Anderson Marlon" />
+                                <img src="https://github.com/yagasaki7k.png" alt="Anderson Marlon" />
                             </a>
                         </div>
 
@@ -29,7 +28,7 @@ const Equipe = () => {
                                 Nascido e residente da cidade de Campinas, interior de São Paulo,
                                 possuí formação no curso de Introdução a Ciências da Computação (CS50) da
                                 Universidade de Harvard, chegou a conquistar o Terceiro Lugar no Hackathon
-                                da AMBEV com a Shawee, Javascript Evangelist e é responsável por várias inovações como Web Essentials, FindYourPet, Jhenny's Book e vários outros pela Kalify Inc.
+                                da AMBEV com a Shawee e Javascript Evangelist
                             </p>
                             <p>
                                 <u>Desenvolvedor de Software</u> pela Stone Co.
@@ -54,7 +53,41 @@ const Equipe = () => {
                         </div>
 
                         <div className="img-crew spacing">
-                            <a href="https://isntagram.com/yokaida" target="_blank">
+                            <a href="https://github.com/HelenCris" target="_blank">
+                                <img src="https://github.com/HelenCris.png" alt="Gabriel Barbosa" />
+                            </a>
+                        </div>
+
+                        <div className="content-crew">
+                            <strong>Helen Cris Morais</strong> <br /><br />
+                            <b>Desenvolvedora Mobile</b> <br />
+                            <p>
+                                Estudando Bacharelado de Ciências da Computação na Universidade Estácio, possuí experiência de arquitetura utilizada no desenvolvimento de aplicativos para implantação nos sistemas operacionais Google Android e Apple IOS utilizando TypeScript, React Native, Firebase, Dart e Flutter
+                            </p>
+                            <p>
+                                Estudante de Ciências da Computação na Universidade Estácio
+                            </p>
+                        </div>
+
+                        <div className="img-crew spacing">
+                            <a href="https://github.com/gabrielUpON" target="_blank">
+                                <img src="https://github.com/gabrielUpON.png" alt="Gabriel Barbosa" />
+                            </a>
+                        </div>
+
+                        <div className="content-crew">
+                            <strong>Gabriel Barbosa</strong> <br /><br />
+                            <b>Desenvolvedor Back-end</b> <br />
+                            <p>
+                                Estudando Bacharelado de Ciências da Computação na Universidade Estácio de Sá, possuí experiência em manutenção e rede de computadores; em suporte, instalação e configuração de software; e em desenvolvimento de programas em linguagem C/C++, Javascript e Python.
+                            </p>
+                            <p>
+                                Estudante de Ciências da Computação na Universidade Estácio de Sá
+                            </p>
+                        </div>
+
+                        <div className="img-crew spacing">
+                            <a href="https://instagram.com/yokaida" target="_blank">
                                 <img src={PicYokaida} alt="Marcelo Vinícius" />
                             </a>
                         </div>

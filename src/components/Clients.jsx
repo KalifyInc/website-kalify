@@ -1,6 +1,6 @@
 import React from 'react'
 import SubPageDetails from './SubPageDetails'
-import BgKalify from '../assets/pic07.jpg'
+import BgKalify from '../assets/pic07.png'
 
 const Clients = () => {
     return (

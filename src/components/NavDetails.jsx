@@ -56,8 +56,8 @@ const AppDetails = styled.div`
         margin-right: 30px;
         padding: 20px;
         background: transparent;
-        border: 2px solid #915095;
-        color: #915095;
+        border: 2px solid #8753ff;
+        color: #8753ff;
         font-weight: bold;
         text-transform: uppercase;
         cursor: pointer;
@@ -65,7 +65,7 @@ const AppDetails = styled.div`
         :hover {
             color: #fff;
             transition: 1s;
-            background: #915095;
+            background: #8753ff;
         }
     }
 
