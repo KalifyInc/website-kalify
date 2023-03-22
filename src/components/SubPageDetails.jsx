@@ -2,6 +2,7 @@ import styled from 'styled-components'
 
 const SubPageDetails = styled.div`
     background:#181a1b;
+
     .content {
         display: flex;
         justify-content: center;
@@ -47,14 +48,6 @@ const SubPageDetails = styled.div`
 
         li:first-child {
             margin-top: 1.2rem;
-        }
-
-        .BgPizza {
-            margin-left: 18rem;
-
-            @media (max-width: 1366px) {
-                margin-left: -2rem;
-            }
         }
 
         @media (max-width: 768px) {

@@ -9,7 +9,7 @@ const Clients = () => {
                 <img src={BgKalify} alt="kalify-tech" />
                 <h1>Nossa história</h1>
                 <p>
-                    A Kalify Inc foi fundada em 2018 como um projeto de desenvolvimento de software, mas nossa história se estende muito além disso. Começamos em 2008 com a criação da World Magic RPG, uma equipe de jogos de RPG que contavam histórias de aventura e fantasia. A partir daí, criamos várias outros projetos, como HabbyCry e Antech Productions, sempre seguindo a mesma ideia, até chegar à Kindred Publicidades, onde nosso foco passou a ser o desenvolvimento. A partir daí, continuamos evoluindo até se tornarmos o que somos hoje, a Kalify Inc.
+                    A Kalify Inc foi fundada em 2018 como um projeto de desenvolvimento de software, mas nossa história se estende muito além disso. Começamos em 2008 com a criação da WorldMagic RPG, uma equipe de jogos de RPG que contavam histórias de aventura e fantasia. A partir daí, criamos várias outros projetos, como HabbyCry e Antech Productions, sempre seguindo a mesma ideia, até chegar à Kindred Publicidades, onde nosso foco passou a ser o desenvolvimento. A partir daí, continuamos evoluindo até se tornarmos o que somos hoje, a Kalify Inc.
                 </p>
                 <p>
                     Com o surgimento do Web Essentials, uma ferramenta criada para simplificar a vida dos usuários de computadores e nosso primeiro desenvolvimento, a Kalify foi criada e passou a englobar projetos como FindYourPet, Jhenny's Book, Aperture Laboratories e muitos outros, se tornando uma equipe de desenvolvimento de soluções para entretenimento e facilitando a vida das pessoas.

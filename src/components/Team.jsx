@@ -9,9 +9,9 @@ import PicYokaida from '../assets/yokaida.png'
 const Equipe = () => {
     return (
         <SubPageDetails>
-            <div className="content" id="team">
-                <ContentDetails>
-                    <img src={BgPizza} alt="kalify-tech" className="BgPizza" />
+            <ContentDetails>
+                <div className="content" id="team">
+                    <img src={BgPizza} alt="kalify-tech" />
                     <div className="kalifycrew" id="equipe">
                         <h2>A Equipe</h2>
 
@@ -120,9 +120,9 @@ const Equipe = () => {
                             </p>
                         </div>
                     </div>
-                </ContentDetails>
-            </div>
-        </SubPageDetails>
+                </div>
+            </ContentDetails>
+        </SubPageDetails >
     )
 }
 
