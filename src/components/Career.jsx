@@ -23,6 +23,8 @@ const Projetos = () => {
 
                 <p>Ensinar qualquer tecnologia sobre nossos projetos, aonde queremos chegar, dedicar a tudo isso leva tempo e claro, é exaustivo, dedicar esse tempo a alguém que não tem tempo pra se dedicar nem a si mesmo, não servirá pra entrar no processo, será um tempo de dedicação e empenho que não temos de sobra e isso custará mais nosso tempo do que gostaríamos, claro, isso é bem diferente quando tem alguém empolgada e disposto a aprender. Todo o valor, toda a experiência SEMPRE é compartilhada de alguma maneira, principalmente quando os dois lados se ajudam.</p>
 
+                <p><b>Requisitos:</b> Se você for de Front-end, precisamos que saiba ou tenha conhecimento básico de React e Styled Components. Se você for Back-end, precisamos que você saiba ou tenha conhecimento básico de Javascript e Firebase e se você for Mobile, precisamos que você saiba Flutter ou tenha conhecimento básico. Sem essas tecnologias nas respectivas áreas, não terá como dar suporte aos nossos projetos.</p>
+
                 <p>Interessado? Entre na nossa <a href="https://discord.gg/jhSepmE7nN" target="_blank" noreferrer>Comunidade no Discord</a> e solicite pra fazer parte da equipe.</p>
             </div>
         </SubPageDetails>
