@@ -8,6 +8,7 @@ import VideoBackground from "../assets/home.webm";
 import Clients from "../components/Clients";
 import Team from "../components/Team";
 import Projects from "../components/Projects";
+import Career from "../components/Career";
 
 function App() {
   return (
@@ -53,10 +54,11 @@ function App() {
       <Content />
       <Clients />
       <Projects />
+      <Career />
       <Team />
       {/* <Projects/>
             <Culture/>
-            <Carrer/>
+            
             <Blog/> */}
     </AppDetails>
   );

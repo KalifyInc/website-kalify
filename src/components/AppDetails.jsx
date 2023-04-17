@@ -222,6 +222,18 @@ const AppDetails = styled.div`
             margin: 50px 0 0 260px;
         }
     }
+
+    hr {
+        margin-left: 35rem;
+        width: 50rem;
+    }
+
+    @media (max-width: 1366px) {
+        hr {
+            margin-left: 18rem;
+            width: 40rem;
+        }
+    }
 `
 
 export default AppDetails
