@@ -50,10 +50,60 @@ const SubPageDetails = styled.div`
             margin-top: 1.2rem;
         }
 
-        @media (max-width: 768px) {
+        @media (max-width: 1024px) {
+            width: 60rem;
+            margin-right: 50px;
+
             img, h1, p, h3, i, .description {
-                margin-left: -3rem;
-                width: 23rem;
+                margin-left: 5rem;
+            }
+
+            hr {
+                margin-left: 8rem;
+            }
+        }
+
+        @media (max-width: 768px) {
+            width: 45rem;
+
+            img, h1, p, h3, i, .description {
+                margin-left: 0rem;
+                width: 40rem;
+            }
+
+            hr {
+                width: 30rem;
+                margin-left: 5rem;
+            }
+        }
+
+        @media (max-width: 600px) {
+            width: 30rem;
+
+            img, h1, p, h3, i, .description {
+                margin-left: 0rem;
+                width: 25rem;
+            }
+
+            hr {
+                width: 15rem;
+                margin-left: 5rem;
+            }
+        }
+
+        @media (max-width: 414px) {
+            width: 23rem;
+            padding-left: 2rem;
+            padding-top: 1rem;
+
+            img, h1, p, h3, i, .description {
+                margin-left: 0rem;
+                width: 21rem;
+            }
+
+            hr {
+                width: 13rem;
+                margin-left: 2rem;
             }
         }
     }

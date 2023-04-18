@@ -82,7 +82,7 @@ const AppDetails = styled.div`
         }
 
         a {
-            margin-right: 40px;
+            margin-right: 20px;
         }
     }
 

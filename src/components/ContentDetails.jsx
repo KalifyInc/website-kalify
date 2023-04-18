@@ -186,19 +186,13 @@ const ContentDetails = styled.div`
 
     @media screen and (max-width: 1024px) {
         .content {
-            margin-top: -450px;
+            margin-top: -70px;
         }
     }
 
     @media screen and (max-width: 768px) {
         .content {
-            margin-top: -100px;
-        }
-    }
-
-    @media screen and (max-width: 600px) {
-        .content {
-            margin-top: 100px;
+            margin-top: -70px;
         }
     }
 
@@ -249,6 +243,45 @@ const ContentDetails = styled.div`
 
         .spacing {
             margin-top: 80px;
+        }
+
+        @media (max-width: 1024px) {
+            margin-left: 70px;
+
+            .content-crew {
+                strong, p {
+                    width: 625px;
+                }
+            }
+        }
+
+        @media (max-width: 768px) {
+            margin-left: 0;
+
+            .content-crew {
+                margin-top: 0;
+                margin-left: 0;
+
+                strong, p {
+                    width: 655px;
+                }
+            }
+        }
+
+        @media (max-width: 414px) {
+            .content-crew {
+                strong, p {
+                    width: 305px;
+                }
+            }
+        }
+        
+        @media (max-width: 375px) {
+            .content-crew {
+                strong, p {
+                    width: 300px;
+                }
+            }
         }
     }
 
