@@ -1,6 +1,3 @@
-const logo =
-  "https://user-images.githubusercontent.com/23272064/227039978-56a18d00-a3bf-4f56-96be-58d18c55f167.png";
-
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Kalify Inc",
@@ -8,7 +5,7 @@ const config = {
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
-  favicon: logo,
+  favicon: "https://github.com/kalifyinc.png",
   organizationName: "yagasaki7k", // Usually your GitHub org/user name.
   projectName: "website-kalify", // Usually your repo name.
 
@@ -52,12 +49,13 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: "https://i.imgur.com/PZDRcdO.png",
+      image:
+        "https://kalify.vercel.app/assets/images/pic07-786139e99d211ae24b327bfe5731a0ae.png",
       navbar: {
         title: "Kalify Inc.",
         logo: {
           alt: "Kalify Logo",
-          src: "https://user-images.githubusercontent.com/23272064/227039978-56a18d00-a3bf-4f56-96be-58d18c55f167.png",
+          src: "https://github.com/kalifyinc.png",
         },
         items: [
           { to: "/", label: "Início", position: "left" },
