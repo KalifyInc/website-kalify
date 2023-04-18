@@ -80,7 +80,7 @@ const AppDetails = styled.div`
 
     @media (max-width: 1024px) {
         .title {
-            margin: 200px 0 0 100px;
+            margin: 50px 0 0 100px;
         }
 
         a {

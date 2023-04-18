@@ -283,6 +283,14 @@ const ContentDetails = styled.div`
                 }
             }
         }
+
+        @media (max-width: 320px) {
+            .content-crew {
+                strong, p {
+                    width: 290px;
+                }
+            }
+        }
     }
 
     .disabled {

@@ -106,6 +106,23 @@ const SubPageDetails = styled.div`
                 margin-left: 2rem;
             }
         }
+
+        @media (max-width: 360px) {
+            width: 21rem;
+            padding-left: 1rem;
+
+            img, h1, p, h3, i, .description {
+                width: 20rem;
+            }
+        }
+        @media (max-width: 320px) {
+            width: 19rem;
+            padding-left: 1rem;
+
+            img, h1, p, h3, i, .description {
+                width: 18rem;
+            }
+        }
     }
 `
 
