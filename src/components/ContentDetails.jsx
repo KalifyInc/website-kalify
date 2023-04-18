@@ -227,12 +227,11 @@ const ContentDetails = styled.div`
         .img-crew img {
             width: 150px;
             margin-left: 20px;
-            margin-top: 10px;
             border-radius: 50%;
         }
 
         .content-crew {
-            margin-top: -160px;
+            margin-top: -180px;
             margin-left: 200px;
 
             p {
