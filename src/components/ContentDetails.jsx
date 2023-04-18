@@ -304,6 +304,7 @@ const ContentDetails = styled.div`
 
     .disabled {
         filter: opacity(0.2);
+        filter: grayscale(100);
     }
 `
 
