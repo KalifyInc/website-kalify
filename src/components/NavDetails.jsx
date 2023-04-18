@@ -86,6 +86,20 @@ const AppDetails = styled.div`
         }
     }
 
+    @media screen and (max-width: 820px) {
+        opacity: 0 10px;
+        width: 100%;
+
+        .items {
+            margin-top: 10px;
+        }
+
+        a {
+            font-size: 14px;
+            margin-right: 10px;
+        }
+    }
+
     @media screen and (max-width: 768px) {
         margin: 50px 0 0 280px;
 

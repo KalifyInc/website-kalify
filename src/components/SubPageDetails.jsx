@@ -63,12 +63,30 @@ const SubPageDetails = styled.div`
             }
         }
 
+        @media (max-width: 820px) {
+            width: 50rem;
+            margin-right: 50px;
+            padding-left: 2rem;
+
+            img, h1, p, h3, i, .description {
+                margin-left: 0;
+            }
+
+            hr {
+                margin-left: 4rem;
+            }
+
+            a {
+                margin-right: 0;
+            }
+        }
+
         @media (max-width: 768px) {
             width: 45rem;
 
             img, h1, p, h3, i, .description {
                 margin-left: 0rem;
-                width: 40rem;
+                width: 43rem;
             }
 
             hr {
@@ -88,6 +106,20 @@ const SubPageDetails = styled.div`
             hr {
                 width: 15rem;
                 margin-left: 5rem;
+            }
+        }
+
+        @media (max-width: 426px) {
+            width: 25rem;
+
+            img, h1, p, h3, i, .description {
+                margin-left: 0rem;
+                width: 23rem;
+            }
+
+            hr {
+                width: 13rem;
+                margin-left: 4rem;
             }
         }
 

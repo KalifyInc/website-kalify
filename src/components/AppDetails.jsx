@@ -88,6 +88,20 @@ const AppDetails = styled.div`
         }
     }
 
+    @media (max-width: 820px) {
+        .title {
+            margin: 50px 0 0 100px;
+
+            h2, h4 {
+                width: 700px;
+            }
+        }
+
+        a {
+            margin-right: 15px;
+        }
+    }
+
     @media (max-width: 768px) {
         .header {
             width: 100px;
@@ -124,6 +138,24 @@ const AppDetails = styled.div`
 
             h4 {
                 width: 500px;
+            }
+        }
+    }
+
+    @media (max-width: 426px) {
+        .title {
+            margin: 0 0 0 50px;
+
+            h2, h4 {
+                width: 360px;
+            }
+
+            h2 {
+                font-size: 30px;
+            }
+
+            h4 {
+                font-size: 20px;
             }
         }
     }

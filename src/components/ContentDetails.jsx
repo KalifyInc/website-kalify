@@ -255,6 +255,16 @@ const ContentDetails = styled.div`
             }
         }
 
+        @media (max-width: 820px) {
+            margin-left: 0;
+
+            .content-crew {
+                strong, p {
+                    width: 565px;
+                }
+            }
+        }
+
         @media (max-width: 768px) {
             margin-left: 0;
 
