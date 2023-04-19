@@ -1,4 +1,6 @@
 import React from "react";
+import { UilInstagram, UilTwitter, UilGithub, UilDiscord } from "@iconscout/react-unicons";
+
 import AppDetails from "../components/AppDetails";
 import Navigation from "../components/Navigation";
 import Content from "../components/Content";
@@ -37,16 +39,16 @@ function App() {
 
         <div className="socialmedia">
           <a href="https://instagram.com/yagasaki.dev" target="_blank">
-            <i className="uil uil-instagram"></i>
+            <UilInstagram />
           </a>
           <a href="https://twitter.com/KalifyInc" target="_blank">
-            <i className="uil uil-twitter"></i>
+            <UilTwitter />
           </a>
           <a href="https://github.com/KalifyInc" target="_blank">
-            <i className="uil uil-github"></i>
+            <UilGithub />
           </a>
           <a href="https://discord.gg/jhSepmE7nN" target="_blank">
-            <i className="uil uil-club"></i>
+            <UilDiscord  />
           </a>
         </div>
       </div>

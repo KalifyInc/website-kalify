@@ -4,7 +4,6 @@ const AppDetails = styled.div`
     margin: 20px 0 0 0;
     display: flex;
     transition: visibility .6s,opacity .6s;
-    width: 100%;
     height: 56px;
     top: 40px;
     padding: 0 48px;
@@ -75,7 +74,6 @@ const AppDetails = styled.div`
 
     @media screen and (max-width: 1024px) {
         opacity: 0 10px;
-        width: 100%;
 
         .items {
             margin-top: 10px;
@@ -88,7 +86,6 @@ const AppDetails = styled.div`
 
     @media screen and (max-width: 820px) {
         opacity: 0 10px;
-        width: 100%;
 
         .items {
             margin-top: 10px;

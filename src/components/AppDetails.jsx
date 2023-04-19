@@ -80,7 +80,7 @@ const AppDetails = styled.div`
 
     @media (max-width: 1024px) {
         .title {
-            margin: 50px 0 0 100px;
+            margin: 35px 0px 0px 100px;
         }
 
         a {
@@ -103,10 +103,6 @@ const AppDetails = styled.div`
     }
 
     @media (max-width: 768px) {
-        .header {
-            width: 100px;
-        }
-
         .title {
             margin: 50px 0 0 60px;
 
@@ -205,7 +201,11 @@ const AppDetails = styled.div`
         display: flex;
         align-items: right;
         justify-content: right;
-        margin: 50px 100px 0 0;
+        gap: .5rem;
+
+        position: absolute;
+        bottom: 0;
+        right: 20px;
 
         i {
             margin-right: 20px;
@@ -222,7 +222,6 @@ const AppDetails = styled.div`
 
     @media (min-width: 1920px) {
         .socialmedia {
-            margin: 50px 100px 0 0;
 
             i {
                 font-size: 30px;
@@ -230,16 +229,23 @@ const AppDetails = styled.div`
         }
     }
 
-    @media (max-width: 768px) {
+    @media (max-width: 1024px) {
         .socialmedia {
+            bottom: 70px;
+
             i {
-                margin-left: 0.5rem;
                 font-size: 30px;
             }
         }
     }
 
-    @media (max-width: 600px) {
+    /* @media (max-width: 768px) {
+        .socialmedia {
+            bottom: 75px;
+        }
+    } */
+
+    /* @media (max-width: 600px) {
         .socialmedia {
             margin: 100px 0 0 400px;
         }
@@ -247,7 +253,7 @@ const AppDetails = styled.div`
 
     @media (max-width: 414px) {
         .socialmedia {
-            margin: 50px 0 0 320px;
+            margin: 115px 0px 0px 370px;
         }
     }
 
@@ -261,7 +267,7 @@ const AppDetails = styled.div`
         .socialmedia {
             margin: 50px 0 0 260px;
         }
-    }
+    } */
 
     hr {
         margin-left: 35rem;
