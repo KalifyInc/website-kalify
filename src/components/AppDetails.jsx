@@ -254,7 +254,7 @@ const AppDetails = styled.div`
     @media (max-width: 820px) {
         .socialmedia {
             bottom: 645px;
-            right: 255px;
+            left: 255px;
 
             i {
                 font-size: 30px;
@@ -265,31 +265,8 @@ const AppDetails = styled.div`
     @media (max-width: 768px) {
         .socialmedia {
             bottom: 75px;
-            right: 20px;
-        }
-    }
-
-    @media (max-width: 600px) {
-        .socialmedia {
-            margin: 100px 0 0 400px;
-        }
-    }
-
-    @media (max-width: 414px) {
-        .socialmedia {
-            margin: 115px 0px 0px 370px;
-        }
-    }
-
-    @media (max-width: 375px) {
-        .socialmedia {
-            margin: 50px 0 0 290px;
-        }
-    }
-
-    @media (max-width: 320px) {
-        .socialmedia {
-            margin: 50px 0 0 260px;
+            left: 20px;
+            right: inherit;
         }
     }
 
