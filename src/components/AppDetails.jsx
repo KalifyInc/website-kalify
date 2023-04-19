@@ -204,8 +204,8 @@ const AppDetails = styled.div`
         gap: .5rem;
 
         position: absolute;
-        bottom: 0;
-        right: 20px;
+        bottom: 250px;
+        right: 1175px;
 
         i {
             margin-right: 20px;
@@ -229,9 +229,10 @@ const AppDetails = styled.div`
         }
     }
 
-    @media (max-width: 1024px) {
+    @media (max-width: 1366px) {
         .socialmedia {
-            bottom: 70px;
+            bottom: 95px;
+            right: 550px;
 
             i {
                 font-size: 30px;
@@ -239,13 +240,36 @@ const AppDetails = styled.div`
         }
     }
 
-    /* @media (max-width: 768px) {
+    @media (max-width: 1024px) {
+        .socialmedia {
+            bottom: 850px;
+            right: 350px;
+
+            i {
+                font-size: 30px;
+            }
+        }
+    }
+
+    @media (max-width: 820px) {
+        .socialmedia {
+            bottom: 645px;
+            right: 255px;
+
+            i {
+                font-size: 30px;
+            }
+        }
+    }
+
+    @media (max-width: 768px) {
         .socialmedia {
             bottom: 75px;
+            right: 20px;
         }
-    } */
+    }
 
-    /* @media (max-width: 600px) {
+    @media (max-width: 600px) {
         .socialmedia {
             margin: 100px 0 0 400px;
         }
@@ -267,7 +291,7 @@ const AppDetails = styled.div`
         .socialmedia {
             margin: 50px 0 0 260px;
         }
-    } */
+    }
 
     hr {
         margin-left: 35rem;
