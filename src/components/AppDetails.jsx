@@ -222,6 +222,8 @@ const AppDetails = styled.div`
 
     @media (min-width: 1920px) {
         .socialmedia {
+            bottom: 250px;
+            right: 1190px;
 
             i {
                 font-size: 30px;
@@ -231,8 +233,8 @@ const AppDetails = styled.div`
 
     @media (max-width: 1366px) {
         .socialmedia {
-            bottom: 95px;
-            right: 550px;
+            bottom: 130px;
+            right: 640px;
 
             i {
                 font-size: 30px;
