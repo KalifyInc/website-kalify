@@ -204,8 +204,8 @@ const AppDetails = styled.div`
         gap: .5rem;
 
         position: absolute;
-        bottom: 250px;
-        right: 1175px;
+        bottom: 395px;
+        right: 1150px;
 
         i {
             margin-right: 20px;
@@ -254,7 +254,7 @@ const AppDetails = styled.div`
     @media (max-width: 820px) {
         .socialmedia {
             bottom: 645px;
-            left: 255px;
+            right: 235px;
 
             i {
                 font-size: 30px;
