@@ -21,7 +21,7 @@ const Projetos = () => {
                 <p className="links"><a href="https://findyourpet.vercel.app/" target="_blank">Website Oficial</a> - <a href="https://github.com/Yagasaki7K/website-findyourpet" target="_blank">Projeto no Github</a></p>
 
                 <h3>Empreguei</h3>
-                <p className="description">Uma plataforma para cadastrar e visualizar vagas de emprego</p>
+                <p className="description">Plataforma para cadastrar e visualizar vagas de emprego de maneira simples, minimalista e sem anúncios, facilitando a comunicação e transparência na hora de encontrar um emprego</p>
                 <p className="links"><a href="https://empreguei.vercel.app/" target="_blank">Website Oficial</a> - <a href="https://github.com/Yagasaki7K/website-empreguei" target="_blank">Projeto no Github</a></p>
                 <hr />
             </div>
