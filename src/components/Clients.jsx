@@ -9,13 +9,13 @@ const Clients = () => {
                 <img src={BgKalify} alt="kalify-tech" />
                 <h1>Nossa história</h1>
                 <p>
-                    A Kalify Inc foi fundada em 2018 como um projeto de desenvolvimento de software, mas nossa história se estende muito além disso. Começamos em 2008 com a criação da WorldMagic RPG, uma equipe de jogos de RPG que contavam histórias de aventura e fantasia. A partir daí, criamos várias outros projetos, como HabbyCry e Antech Productions, sempre seguindo a mesma ideia, até chegar à Kindred Publicidades, onde nosso foco passou a ser o desenvolvimento. A partir daí, continuamos evoluindo até se tornarmos o que somos hoje, a Kalify Inc.
+                    A Kalify Inc foi fundada em 2018 como um projeto de desenvolvimento de software de código aberto, mas nossa história se estende muito além disso. Começamos em 2008 com a criação da WorldMagic RPG que evoluiu para HabbyCry, Antech Productions, Kindred Publicidades, até finalmente chegarmos aonde estamos.
                 </p>
                 <p>
-                    Com o surgimento do Web Essentials, uma ferramenta criada para simplificar a vida dos usuários de computadores e nosso primeiro desenvolvimento, a Kalify foi criada e passou a englobar projetos como FindYourPet, Jhenny's Book, Aperture Laboratories e muitos outros, se tornando uma equipe de desenvolvimento de soluções para entretenimento e facilitando a vida das pessoas.
+                    Com o surgimento do Web Essentials, nosso primeiro desenvolvimento, uma ferramenta criada para simplificar a vida dos usuários de computadores, a Kalify foi criada e passou a englobar projetos como FindYourPet, Jhenny's Book, Aperture Laboratories e muitos outros, que vão e vem, se tornando uma equipe de desenvolvimento de soluções para entretenimento e facilitando a vida das pessoas.
                 </p>
                 <p>
-                    Atualmente, a Kalify é responsável por criar soluções através da web, seja através de websites ou aplicativos, com o objetivo de resolver problemas, facilitar a vida das pessoas e entreter.
+                    Atualmente, a Kalify é responsável por criar soluções através da web, seja através de websites ou aplicativos, com o objetivo de resolver problemas, facilitar a vida das pessoas, informar e entreter.
                 </p>
                 <p>Nosso foco é desenvolver soluções através da tecnologia.</p>
                 <hr />

@@ -72,7 +72,7 @@ const AppDetails = styled.div`
 
     /* HEADER - TITLE */
 
-    @media (min-width: 1920px) {
+    @media (max-width: 1920px) {
         .title {
             margin: 200px 0 0 300px;
         }

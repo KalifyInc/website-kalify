@@ -6,18 +6,16 @@ const Projetos = () => {
         <SubPageDetails>
             <div className="content" id="career">
                 <h1>Plano de Carreira</h1>
-                <p>Existem várias maneiras de se trabalhar conosco. Claro que até o momento, todos os nossos projetos não possuem fins lucrativos e a intenção é apenas ajudar a sociedade através da tecnologia e desenvolvimento. Assim como também, ajudar novos desenvolvedores a ingressar em projetos de alto nível com idéias de ponta, ajudando um Baby Developer a ter a experiência necessária para ingressar no mercado de trabalho ao contribuir com projetos que chamam atenção e que possuem uma equipe qualificada e profissional passando toda a imersão de um projeto de big tech. Algumas maneiras que você pode contribuir fora da equipe são: </p>
+                <p>Existem várias maneiras de se trabalhar conosco. Claro que até o momento, todos os nossos projetos não possuem fins lucrativos e a intenção é apenas ajudar a sociedade através da tecnologia e desenvolvimento, se você possuí interesse em participar da equipe de código fechado e que possuí fins lucrativos, contate-nos e nos informe sobre o interesse pela Mikan Software. Nosso objeto é ajudar novos desenvolvedores a ingressar em projetos de alto nível com idéias de ponta, ajudando um "Baby Developer" a ter a experiência necessária para ingressar no mercado de trabalho ao contribuir com projetos que chamam atenção e que possuem uma equipe qualificada e profissional passando toda a imersão de um projeto de big tech. Algumas maneiras que você pode contribuir fora da equipe são: </p>
 
                 <h3>Issues</h3>
-                <p>Você pode encontrar nossa <a href="https://github.com/orgs/KalifyInc/projects/7/views/2" target="_blank" noreferrer>Tabela de Issues</a> direto no perfil da Kalify no GitHub, e lá, em tempo real, você conseguirá ver uma lista de issues em todos os nossos projetos, assim, você pode se voluntariar em pegar alguma e abrir um pull request em cima, não tem problema, apenas pegue as tarefas que não estão assinadas e estará tudo certo.</p>
+                <p>Você pode encontrar nossa <a href="https://github.com/orgs/KalifyInc/projects/7/views/2" target="_blank" noreferrer>Tabela de Issues</a> direto no perfil da Kalify no GitHub, e lá, em tempo real, você conseguirá ver uma lista de issues de todos os nossos projetos em um único lugar, assim, você pode se voluntariar em pegar alguma e abrir um pull request em cima, não tem problema, apenas pegue as tarefas que não estão assinadas e estará tudo certo.</p>
 
                 <h3>Projetos</h3>
                 <p>Sempre precisamos de ideias, e mesmo que você não saiba resolver e tiver ideias brilhantes, você pode compartilhar com a nossa equipe através da <a href="https://discord.gg/jhSepmE7nN" target="_blank" noreferrer>Comunidade no Discord</a>, se for aprovado isso será de enorme valor pra gente e pra você. Se for algo simples, direto e que a sociedade realmente usufrua, você terá seus direitos, sua parte na contribuição, seja com códigos ou apenas com a ideia mesmo, totalmente creditado e isso irá te alavancar como um profissional por estar se unindo a uma equipe de ponta, claro, todos os nossos projetos não possuem cunho financeiro.</p>
 
                 <h3>Ingressar na equipe</h3>
                 <p>Temos a intenção de aumentar cada vez nossa equipe, deixando desenvolvedores que são mais experientes com responsabilidades que façam a diferença, membros que terão responsabilidades a passar para os mais novos e que a intenção futura seja comandar vários projetos ao mesmo tempo, isso é Kalify, isso é desenvolvimento e amor em aprender.</p>
-
-                <p>Aonde ganhamos com isso? No nome, no peso em que carregamos e na evolução que temos como profissionais, claro, a versão Business disso está sendo incrementada e todos os membros que fazem parte dos projetos open source, terão a chance de participar dos envolvimentos que envolvem o financeiro de verdade, se acalme.</p>
 
                 <p>Independente de qualquer forma que você se voluntarie pra ajudar, nós só pedimos uma coisa: Comprometimento.</p>
 

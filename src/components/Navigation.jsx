@@ -14,7 +14,7 @@ const Navigation = () => {
             </a>
 
             <div className="items">
-                <a className="hover-underline-animation" href="/#story">Nossa história</a>
+                <a className="hover-underline-animation" href="/#story">Nossa História</a>
                 <a className="hover-underline-animation" href="/#clients">Clientes</a>
                 <a className="hover-underline-animation" href="/#projects">Projetos</a>
                 <a className="hover-underline-animation" href="/#team">Equipe</a>
