@@ -52,7 +52,7 @@ const Equipe = () => {
                             </p>
                         </div>
 
-                        <div className="img-crew spacing">
+                        <div className="img-crew spacing disabled">
                             <a href="https://github.com/HelenCris" target="_blank">
                                 <img src="https://github.com/HelenCris.png" alt="Gabriel Barbosa" />
                             </a>
