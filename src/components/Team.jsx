@@ -28,7 +28,7 @@ const Equipe = () => {
                                 Nascido e residente da cidade de Campinas, interior de São Paulo,
                                 possuí formação no curso de Introdução a Ciências da Computação (CS50) da
                                 Universidade de Harvard e chegou a conquistar o Terceiro Lugar no Hackathon
-                                da AMBEV com a Shawee, além de já ter trabalhado na Cenário Capital e na Stone.
+                                da AMBEV com a Shawee, além de já ter trabalhado na Cenário Capital e na Linx/Stone.
                             </p>
                             <p>
                                 Graduado na CS50 - Harvard em Ciências da Computação
@@ -58,7 +58,7 @@ const Equipe = () => {
                             </a>
                         </div>
 
-                        <div className="content-crew">
+                        <div className="content-crew disabled">
                             <strong>Helen Cris Morais</strong> <br /><br />
                             <b>Desenvolvedora Mobile</b> <br />
                             <p>
