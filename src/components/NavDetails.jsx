@@ -61,12 +61,12 @@ const AppDetails = styled.div`
         font-weight: bold;
         text-transform: uppercase;
         cursor: pointer;
+    }
 
-        :hover {
-            color: #fff;
-            transition: 1s;
-            background: #8753ff;
-        }
+    button:hover {
+        color: #fff;
+        transition: 1s;
+        background: #8753ff;
     }
 
     @media screen and (max-width: 1920px) {

@@ -44,15 +44,15 @@ const AppDetails = styled.div`
             text-transform: uppercase;
             cursor: pointer;
 
-            :hover {
-                color: #fff;
-                transition: 1s;
-                background: #8753ff;
-            }
-
             @media (max-width: 768px) {
                 margin-left: -1rem;
             }
+        }
+
+        .buttonSignUp:hover {
+            color: #fff;
+            transition: 1s;
+            background: #8753ff;
         }
 
         h2 {

@@ -1,6 +1,6 @@
 <div align="center">
   <br>
-  <img alt="Kalify - Open Source" src="https://camo.githubusercontent.com/845cb35ec279e4210a8649e85d9e312e2b82b108962c2bc124ba912991abdd64/68747470733a2f2f7062732e7477696d672e636f6d2f70726f66696c655f62616e6e6572732f313432313131343338393930363833373531342f313638373437313536302f3135303078353030" width="300px">
+  <img alt="Kalify - Open Source" src="assets/images/pic07-786139e99d211ae24b327bfe5731a0ae.png" width="300px">
   <h1>Introdução ao Open Source com Kalify Inc</h1>
   <strong>O site fornece material de apoio para a introdução ao Open Source da Kalify Inc.</strong>
 </div>

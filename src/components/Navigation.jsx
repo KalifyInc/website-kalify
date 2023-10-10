@@ -19,7 +19,7 @@ const Navigation = () => {
                 <a className="hover-underline-animation" href="/#projects">Projetos</a>
                 <a className="hover-underline-animation" href="/#team">Equipe</a>
                 <a className="hover-underline-animation" href="/status">Status</a>
-                <a className="hover-underline-animation" href="/blog">Blog</a>
+                <a className="hover-underline-animation" href="/docs/intro">Open Source</a>
                 <button onClick={redirectDiscord} target="_blank">Vamos conversar!</button>
             </div>
         </NavDetails>

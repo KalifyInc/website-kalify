@@ -8,10 +8,10 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Kalify - Open Source',
   tagline: 'Uma introdução ao código aberto e orientação no processo de contribuição para projetos.',
-  favicon: 'img/favicon.ico',
+  favicon: 'https://github.com/kalifyinc.png',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://kalify.vercel.app/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -42,14 +42,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/yagasaki7k/website-kalify',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/yagasaki7k/website-kalify',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -62,12 +62,12 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'https://github.com/kalifyinc.png',
       navbar: {
         title: 'Kalify - Open Source',
         logo: {
           alt: 'Kalify - Open Source',
-          src: 'img/logo.svg',
+          src: 'https://github.com/kalifyinc.png',
         },
         items: [
           {
@@ -127,7 +127,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © 2023 - ${new Date().getFullYear()} Kalify, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © 2018 - ${new Date().getFullYear()} Kalify, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
