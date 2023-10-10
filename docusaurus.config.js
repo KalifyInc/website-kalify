@@ -62,7 +62,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'https://github.com/kalifyinc.png',
+      image: 'https://kalify.vercel.app/assets/images/pic07-786139e99d211ae24b327bfe5731a0ae.png',
       navbar: {
         title: 'Kalify - Open Source',
         logo: {
