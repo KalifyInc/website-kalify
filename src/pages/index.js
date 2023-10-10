@@ -56,10 +56,6 @@ function App() {
       <Projects />
       <Career />
       <Team />
-      {/* <Projects/>
-            <Culture/>
-            
-            <Blog/> */}
     </AppDetails>
   );
 }
