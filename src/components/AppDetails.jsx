@@ -274,31 +274,6 @@ const AppDetails = styled.div`
             width: 40rem;
         }
     }
-
-    .status {
-        padding: 3rem;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        margin-top: -45rem;
-
-        th {
-            padding: 0rem 3.5rem;
-        }
-
-        td {
-            text-align: center;
-        }
-
-        .offline {
-            color: #ff0000;
-        }
-
-        .online {
-            color: #00ff00;
-        }
-    }
 `
 
 export default AppDetails

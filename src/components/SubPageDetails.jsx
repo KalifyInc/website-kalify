@@ -147,6 +147,7 @@ const SubPageDetails = styled.div`
                 width: 20rem;
             }
         }
+        
         @media (max-width: 320px) {
             width: 19rem;
             padding-left: 1rem;
@@ -155,6 +156,16 @@ const SubPageDetails = styled.div`
                 width: 18rem;
             }
         }
+    }
+
+    .footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background: #262829;
+        color: #e5e5e5;
+        padding: 1rem 0;
     }
 `
 

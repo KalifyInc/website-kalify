@@ -81,7 +81,7 @@ Ao seguir essas etapas, você estará pronto para enviar as suas contribuições
 
 Agora que você sabe como encontrar e contribuir para projetos de código aberto, é hora de colocar as suas habilidades em prática. Vamos contribuir para esse site de documentação da Kalify usando a especificação ["all contributors"](https://allcontributors.org/).
 
-1. Comece fazendo um fork do repositório, conforme descrito acima, mas desta vez, o repositório é o website-kalify: <https://github.com/yagasaki7k/website-kalify>. Clicando em "Fork" no GitHub, você criará uma cópia do repositório na sua conta do GitHub.
+1. Comece fazendo um fork do repositório, conforme descrito acima, mas desta vez, o repositório é o website-kalify: [https://github.com/yagasaki7k/website-kalify](https://github.com/yagasaki7k/website-kalify). Clicando em "Fork" no GitHub, você criará uma cópia do repositório na sua conta do GitHub.
 
 2. Em seguida, clone esse repositório na sua máquina local. No seu terminal ou prompt de comando, execute o seguinte comando:
 
@@ -89,7 +89,7 @@ Agora que você sabe como encontrar e contribuir para projetos de código aberto
 git clone git@github.com:[seu-nome-de-usuario]/repositorio.git
 ```
 
-> Este tutorial presume que o Node.js está instalado na sua máquina, o que é necessário para trabalhar com este projeto. Se você não tiver o Node.js instalado, pode baixá-lo em <https://nodejs.org/pt-br/download/>.
+> Este tutorial presume que o Node.js está instalado na sua máquina, o que é necessário para trabalhar com este projeto. Se você não tiver o Node.js instalado, pode baixá-lo em [https://nodejs.org/pt-br/download/](https://nodejs.org/pt-br/download/)>.
 
 1. Depois de clonar, abra o projeto no seu terminal e execute `npm install` para instalar as dependências, lembre-se de estar dentro da pasta. Você também pode usar `yarn` se preferir outro gerenciador de pacotes.
 
