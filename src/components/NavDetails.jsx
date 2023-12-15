@@ -1,14 +1,10 @@
 import styled from 'styled-components'
 
 const AppDetails = styled.div`
-    margin: 20px 0 0 0;
+    margin: 50px 0 0 0;
     display: flex;
-    transition: visibility .6s,opacity .6s;
     width: 100%;
-    height: 56px;
-    top: 40px;
-    padding: 0 48px;
-    z-index: 82;
+    padding: 0 10rem;
     justify-content: space-between;
     display: flex;
 
@@ -69,10 +65,6 @@ const AppDetails = styled.div`
         background: #8753ff;
     }
 
-    @media screen and (max-width: 1920px) {
-        margin: 50px 0 0 0px;
-    }
-
     @media screen and (max-width: 1024px) {
         opacity: 0 10px;
         width: 100%;
@@ -101,10 +93,8 @@ const AppDetails = styled.div`
     }
 
     @media screen and (max-width: 768px) {
-        margin: 50px 0 0 280px;
-
         img {
-            margin-left: -10px;
+            margin-left: 0rem;
         }
 
         .items {
@@ -120,15 +110,15 @@ const AppDetails = styled.div`
         margin: 50px 0 0 200px;
     }
 
-    @media screen and (max-width:414px) {
+    @media screen and (max-width: 414px) {
         margin: 50px 0 0 120px;
     }
 
-    @media screen and (max-width:375px) {
+    @media screen and (max-width: 375px) {
         margin: 50px 0 0 100px;
     }
 
-    @media screen and (max-width:320px) {
+    @media screen and (max-width: 320px) {
         margin: 50px 0 0 70px;
     }
 `

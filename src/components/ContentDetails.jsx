@@ -4,6 +4,7 @@ const ContentDetails = styled.div`
 
     .content {
         background: #181a1b;
+        width: 100%;
 
         .circle-centralized {
             margin-left: -250px;
@@ -103,7 +104,6 @@ const ContentDetails = styled.div`
         }
 
         @media screen and (max-width: 768px) {
-            
             .kalifytech {
                 margin-left: 50px;
 
@@ -220,7 +220,7 @@ const ContentDetails = styled.div`
         }
 
         p {
-            width: 800px;
+            width: 100%;
             margin-top: 20px;
         }
 

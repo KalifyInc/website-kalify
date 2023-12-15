@@ -109,6 +109,7 @@ const AppDetails = styled.div`
 
         .title {
             margin: 50px 0 0 60px;
+            width: 100%;
 
             h2 {
                 font-size: 50px;
@@ -120,11 +121,17 @@ const AppDetails = styled.div`
                 width: 600px;
                 margin-left: -20px;
             }
+
+            .buttons {
+                display: none;
+            }
         }
 
         a {
             margin-right: 0;
         }
+
+        
     }
 
     @media (max-width: 600px) {
