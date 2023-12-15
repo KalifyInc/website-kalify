@@ -5,6 +5,8 @@ import ContentDetails from './ContentDetails'
 import BgPizza from '../assets/pic04.png'
 import PicArthur from '../assets/pic03.jpg'
 import PicYokaida from '../assets/yokaida.png'
+import PicLais from '../assets/laisestevam.png'
+import PicYagasaki from '../assets/yagasaki.jpg'
 
 const Equipe = () => {
     return (
@@ -17,21 +19,38 @@ const Equipe = () => {
 
                         <div className="img-crew">
                             <a href="https://github.com/Yagasaki7K" target="_blank">
-                                <img src="https://github.com/yagasaki7k.png" alt="Anderson Marlon" />
+                                <img src={PicYagasaki} alt="Anderson Marlon" />
                             </a>
                         </div>
 
                         <div className="content-crew">
                             <strong>Anderson "Yagasaki" Marlon</strong> <br /><br />
-                            <b>Co-Fundador & Presidente</b> <br />
+                            <b>CEO & Desenvolvedor Fullstack</b> <br />
                             <p>
-                                Nascido e residente da cidade de Campinas, interior de São Paulo,
-                                possuí formação no curso de Introdução a Ciências da Computação (CS50) da
-                                Universidade de Harvard e chegou a conquistar o Terceiro Lugar no Hackathon
-                                da AMBEV com a Shawee, além de já ter trabalhado na Cenário Capital e na Linx/Stone.
+                                Possuí formação no curso de Introdução a Ciências da Computação (CS50) da
+                                Universidade de Harvard, chegou a conquistar o Terceiro Lugar no Hackathon
+                                da AMBEV com a Shawee, além de já ter trabalhado em grandes empresas como a Cenário Capital e na Linx/Stone.
                             </p>
                             <p>
-                                Graduado na CS50 - Harvard em Ciências da Computação
+                                Graduado na CS50 de Harvard em Ciências da Computação
+                            </p>
+                        </div>
+
+                        <div className="img-crew spacing">
+                            <a href="https://instagram.com/lasestevam" target="_blank">
+                                <img src={PicLais} alt="Gabriel Barbosa" />
+                            </a>
+                        </div>
+
+                        <div className="content-crew">
+                            <strong>Lais Estevam</strong> <br /><br />
+                            <b>Sócia & Desenvolvedor Front-end</b> <br />
+                            <p>
+                                Estudando Desenvolvimento Front-end e Análise e Desenvolvimento de Sistemas na UniMetrocamp, possuí experiência em
+                                arquitetura e desenvolvimento de projetos, como também é responsável pela parte de comunicação e inovação da Kalify Inc e seus projetos.
+                            </p>
+                            <p>
+                                Estudante de Análise e Desenvolvimento de Sistemas na UniMetrocamp
                             </p>
                         </div>
 
@@ -43,12 +62,48 @@ const Equipe = () => {
 
                         <div className="content-crew">
                             <strong>Gabriel Barbosa</strong> <br /><br />
-                            <b>Desenvolvedor Back-end</b> <br />
+                            <b>Sócio & Desenvolvedor Back-end</b> <br />
                             <p>
                                 Estudando Bacharelado de Ciências da Computação na Universidade Estácio de Sá, possuí experiência em manutenção e rede de computadores; em suporte, instalação e configuração de software; e em desenvolvimento de programas em linguagem C/C++, Javascript e Python.
                             </p>
                             <p>
                                 Estudante de Ciências da Computação na Universidade Estácio de Sá
+                            </p>
+                        </div>
+
+                        <div className="img-crew spacing">
+                            <a href="https://github.com/julianajrp" target="_blank">
+                                <img src="https://github.com/julianajrp.png" alt="Juliana Rocha" />
+                            </a>
+                        </div>
+
+                        <div className="content-crew">
+                            <strong>Juliana Rocha</strong> <br /><br />
+                            <b>Community Manager</b> <br />
+                            <p>
+                                Estudando Bacharelado de Sistemas de Informações na Descomplica Faculdade Digital,
+                                Nascida e residente do Rio de Janeiro em São João de Meriti,
+                                Desenvolvedora Fullstack e Estagiária na Dialog
+                            </p>
+                            <p>
+                                Cursando Sistemas de Informação na Descomplica Faculdade Digital
+                            </p>
+                        </div>
+
+                        <div className="img-crew spacing">
+                            <a href="https://github.com/luczsz" target="_blank">
+                                <img src="https://github.com/luczsz.png" alt="Lucas Souza" />
+                            </a>
+                        </div>
+
+                        <div className="content-crew">
+                            <strong>Lucas Souza</strong> <br /><br />
+                            <b>UX/UI Designer & Mobile Developer</b> <br />
+                            <p>
+                                Nascido e residente no estado do Ceará em Fortaleza, possui formação em Psicologia, porém é Técnico em Informática desde os 15 anos, trabalhou como Suporte de TI, como Análise e Suporte de um Sistema terceirizado de PDV, e experiente como Mobile em React Native.
+                            </p>
+                            <p>
+                                Cursando Ciências da Computação na Uninassau
                             </p>
                         </div>
 
@@ -65,7 +120,7 @@ const Equipe = () => {
                                 Estudando Bacharelado de Ciências da Computação na Universidade Estácio, possuí experiência de arquitetura utilizada no desenvolvimento de aplicativos para implantação nos sistemas operacionais Google Android e Apple IOS utilizando TypeScript, React Native, Firebase, Dart e Flutter
                             </p>
                             <p>
-                                Estudante de Ciências da Computação na Universidade Estácio
+                                Estudante de Ciências da Computação na Universidade Estácio de Sá
                             </p>
                         </div>
 
