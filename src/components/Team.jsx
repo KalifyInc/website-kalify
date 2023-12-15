@@ -46,11 +46,11 @@ const Equipe = () => {
                             <strong>Lais Estevam</strong> <br /><br />
                             <b>Sócia & Desenvolvedor Front-end</b> <br />
                             <p>
-                                Estudando Desenvolvimento Front-end e Análise e Desenvolvimento de Sistemas na UniMetrocamp, possuí experiência em
+                                Estudando Desenvolvimento Front-end e Engenharia da Computação na UniMetrocamp, possuí experiência em
                                 arquitetura e desenvolvimento de projetos, como também é responsável pela parte de comunicação e inovação da Kalify Inc e seus projetos.
                             </p>
                             <p>
-                                Estudante de Análise e Desenvolvimento de Sistemas na UniMetrocamp
+                                Estudante de Engenharia da Computação na UniMetrocamp
                             </p>
                         </div>
 
