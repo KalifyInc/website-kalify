@@ -3,8 +3,10 @@ import styled from 'styled-components'
 const ContentDetails = styled.div`
 
     .content {
-        background: #181a1b;
-        width: 100%;
+        max-width: 93rem;
+        margin-top: -3rem;
+        background: #000;
+        color: #a1a1a1;
 
         .circle-centralized {
             margin-left: -250px;
@@ -224,10 +226,28 @@ const ContentDetails = styled.div`
             margin-top: 20px;
         }
 
-        .img-crew img {
-            width: 150px;
-            margin-left: 20px;
-            border-radius: 50%;
+        .img-crew {
+            img {
+                width: 150px;
+                margin-left: 25px;
+                border-radius: 50%;
+            }
+
+            .frontImage {
+                position: absolute;
+                z-index: 2;
+            }
+
+            .backImage {
+                filter: blur(1rem);
+                transition: 1s;
+            }
+
+            :hover {
+                .backImage {
+                    filter: blur(2.5rem);
+                }
+            }
         }
 
         .content-crew {

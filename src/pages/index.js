@@ -52,10 +52,10 @@ function App() {
                     </div>
                 </div>
 
-                {/* <div className="socialmedia">
-                    <a href="https://instagram.com/yagasaki.dev" target="_blank">
+                <div className="socialmedia">
+                    {/* <a href="https://instagram.com/yagasaki.dev" target="_blank">
                         <i className="uil uil-instagram"></i>
-                    </a>
+                    </a> */}
                     <a href="https://twitter.com/KalifyInc" target="_blank">
                         <i className="uil uil-twitter"></i>
                     </a>
@@ -65,10 +65,10 @@ function App() {
                     <a href="https://discord.gg/jhSepmE7nN" target="_blank">
                         <i className="uil uil-club"></i>
                     </a>
-                </div> */}
+                </div>
             </div>
 
-            <Content />
+            {/* <Content /> */}
             <Clients />
             <Projects />
             <Career />

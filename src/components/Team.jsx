@@ -19,7 +19,8 @@ const Equipe = () => {
 
                         <div className="img-crew">
                             <a href="https://github.com/Yagasaki7K" target="_blank">
-                                <img src={PicYagasaki} alt="Anderson Marlon" />
+                                <img src={PicYagasaki} alt="Anderson Marlon" className="frontImage" />
+                                <img src={PicYagasaki} alt="Anderson Marlon" className="backImage" />
                             </a>
                         </div>
 
@@ -38,7 +39,8 @@ const Equipe = () => {
 
                         <div className="img-crew spacing">
                             <a href="https://instagram.com/lasestevam" target="_blank">
-                                <img src={PicLais} alt="Gabriel Barbosa" />
+                                <img src={PicLais} alt="Lais Estevam" className="frontImage" />
+                                <img src={PicLais} alt="Lais Estevam" className="backImage" />
                             </a>
                         </div>
 
@@ -56,7 +58,8 @@ const Equipe = () => {
 
                         <div className="img-crew spacing">
                             <a href="https://github.com/gabrielUpON" target="_blank">
-                                <img src="https://github.com/gabrielUpON.png" alt="Gabriel Barbosa" />
+                                <img src="https://github.com/gabrielUpON.png" alt="Gabriel Barbosa" className="frontImage" />
+                                <img src="https://github.com/gabrielUpON.png" alt="Gabriel Barbosa" className="backImage" />
                             </a>
                         </div>
 
@@ -73,7 +76,8 @@ const Equipe = () => {
 
                         <div className="img-crew spacing">
                             <a href="https://github.com/julianajrp" target="_blank">
-                                <img src="https://github.com/julianajrp.png" alt="Juliana Rocha" />
+                                <img src="https://github.com/julianajrp.png" alt="Juliana Rocha" className="frontImage" />
+                                <img src="https://github.com/julianajrp.png" alt="Juliana Rocha" className="backImage" />
                             </a>
                         </div>
 
@@ -92,7 +96,8 @@ const Equipe = () => {
 
                         <div className="img-crew spacing">
                             <a href="https://github.com/luczsz" target="_blank">
-                                <img src="https://github.com/luczsz.png" alt="Lucas Souza" />
+                                <img src="https://github.com/luczsz.png" alt="Lucas Souza" className="frontImage" />
+                                <img src="https://github.com/luczsz.png" alt="Lucas Souza" className="backImage" />
                             </a>
                         </div>
 
@@ -109,7 +114,7 @@ const Equipe = () => {
 
                         <div className="img-crew spacing disabled">
                             <a href="https://github.com/HelenCris" target="_blank">
-                                <img src="https://github.com/HelenCris.png" alt="Gabriel Barbosa" />
+                                <img src="https://github.com/HelenCris.png" alt="Helen Cris" />
                             </a>
                         </div>
 
