@@ -46,7 +46,7 @@ const Equipe = () => {
 
                         <div className="content-crew">
                             <strong>Lais Estevam</strong> <br /><br />
-                            <b>Sócia & Desenvolvedor Front-end</b> <br />
+                            <b>Sócia & Desenvolvedora Front-end</b> <br />
                             <p>
                                 Estudando Desenvolvimento Front-end e Engenharia da Computação na UniMetrocamp, possuí experiência em
                                 arquitetura e desenvolvimento de projetos, como também é responsável pela parte de comunicação e inovação da Kalify Inc e seus projetos.
