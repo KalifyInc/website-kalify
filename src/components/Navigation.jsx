@@ -3,7 +3,7 @@ import NavDetails from './NavDetails'
 import Logo from '/src/assets/logo.png'
 
 function redirectDiscord() {
-    window.open('https://discord.gg/jhSepmE7nN', "_blank");
+    window.open('https://wa.me/5519998018174?text=Olá%20estou%20interessado%20em%20saber%20mais%20sobre%20os%20serviços%20da%20Kalify%20Inc.', "_blank");
 }
 
 const Navigation = () => {
@@ -18,9 +18,8 @@ const Navigation = () => {
                 <a className="hover-underline-animation" href="/#clients">Clientes</a>
                 <a className="hover-underline-animation" href="/#projects">Projetos</a>
                 <a className="hover-underline-animation" href="/#team">Equipe</a>
-                <a className="hover-underline-animation" href="/status">Status</a>
                 <a className="hover-underline-animation" href="/docs/intro">Open Source</a>
-                <button onClick={redirectDiscord} target="_blank">Vamos conversar!</button>
+                <button onClick={redirectDiscord}>Vamos conversar!</button>
             </div>
         </NavDetails>
     )

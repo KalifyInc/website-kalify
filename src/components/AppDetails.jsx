@@ -129,9 +129,7 @@ const AppDetails = styled.div`
 
         a {
             margin-right: 0;
-        }
-
-        
+        }     
     }
 
     @media (max-width: 600px) {
@@ -254,19 +252,19 @@ const AppDetails = styled.div`
 
     @media (max-width: 414px) {
         .socialmedia {
-            margin: 50px 0 0 320px;
+            margin: 0px 0 0 290px;
         }
     }
 
     @media (max-width: 375px) {
         .socialmedia {
-            margin: 50px 0 0 290px;
+            margin: 0px 0 0 290px;
         }
     }
 
     @media (max-width: 320px) {
         .socialmedia {
-            margin: 50px 0 0 260px;
+            margin: 0px 0 0 260px;
         }
     }
 
@@ -279,6 +277,48 @@ const AppDetails = styled.div`
         hr {
             margin-left: 18rem;
             width: 40rem;
+        }
+    }
+
+    .scroll {
+        display: none;
+
+        @media (max-width: 768px) {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            flex-direction: column;
+            margin-left: 12rem;
+
+            .items {
+                width: 200px;
+
+                li {
+                    margin: 0;
+                    list-style: none;
+
+                    a {
+                        color: #e5e5e5;
+                        text-decoration: underline;
+                    }
+                }
+
+                button {
+                    margin-left: -2rem;
+                    width: 260px;
+                    padding: 10px;
+                    margin-top: 1rem;
+                    background: transparent;
+                    border: 2px solid #8753ff;
+                    color: #8753ff;
+                    font-size: 0.9rem;
+                    font-weight: bold;
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    cursor: pointer;
+                }
+            }
         }
     }
 `

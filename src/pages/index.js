@@ -11,8 +11,11 @@ import Projects from "../components/Projects";
 import Career from "../components/Career";
 import Footer from "../components/Footer";
 
-function App() {
+function redirectDiscord() {
+    window.open('https://wa.me/5519998018174?text=Olá%20estou%20interessado%20em%20saber%20mais%20sobre%20os%20serviços%20da%20Kalify%20Inc.', "_blank");
+}
 
+function App() {
     const videoRef = useRef(null);
 
     const handlePlayVideo = () => {
@@ -66,6 +69,18 @@ function App() {
                         <i className="uil uil-club"></i>
                     </a>
                 </div>
+
+                <div className="scroll">
+                    <div className="items">
+                        <li><a className="hover-underline-animation" href="/#story">Nossa História</a></li>
+                        <li><a className="hover-underline-animation" href="/#clients">Clientes</a></li>
+                        <li><a className="hover-underline-animation" href="/#projects">Projetos</a></li>
+                        <li><a className="hover-underline-animation" href="/#team">Equipe</a></li>
+                        <li><a className="hover-underline-animation" href="/docs/intro">Open Source</a></li>
+                        <button onClick={redirectDiscord}>Vamos conversar!</button>
+                    </div>
+                </div>
+
             </div>
 
             {/* <Content /> */}
