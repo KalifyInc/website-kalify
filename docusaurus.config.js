@@ -3,7 +3,7 @@
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Kalify - Open Source',
+  title: 'Kalify Inc. - Comunidade Brasileira de Programação',
   tagline: 'Uma introdução ao código aberto e orientação no processo de contribuição para projetos.',
   favicon: 'https://github.com/kalifyinc.png',
 
