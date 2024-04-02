@@ -1,6 +1,6 @@
 <div align="center">
   <br>
-  <img alt="Kalify - Open Source" src="assets/images/pic07-786139e99d211ae24b327bfe5731a0ae.png" width="300px">
+  <img alt="Kalify - Open Source" src="https://justkindred.com.br/css/images/bg.jpg" width="300px">
   <h1>Introdução ao Open Source com Kalify Inc</h1>
   <strong>O site fornece material de apoio para a introdução ao Open Source da Kalify Inc.</strong>
 </div>
