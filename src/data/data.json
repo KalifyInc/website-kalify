@@ -4,15 +4,15 @@
     "paragraph": "Desenvolvemos soluções através da tecnologia. Com nossos serviços e ideais entregamos experiências e soluções digitais que evoluem e inspiram pessoas e comunidades"
   },
   "About": {
-    "paragraph": "A Kalify Inc. é subsidiária da Kindred Software (setor privado) e é responsável por criar soluções através da web, seja através de websites ou aplicativos, com o objetivo de resolver problemas, facilitar a vida das pessoas, informar e entreter, além de dar o suporte necessário para pedidos de clientes. Nosso foco é desenvolver soluções através da tecnologia.",
+    "paragraph": "A Kalify Inc. é subsidiária da Kindred Software (setor privado) e é responsável por criar soluções através da web e dar assistência técnica, seja através de websites ou aplicativos, com o objetivo de resolver problemas, facilitar a vida das pessoas, informar e entreter, além de dar o suporte necessário para pedidos de clientes. Nosso foco é desenvolver soluções através da tecnologia.",
     "Why": [
       "Profissionais qualificados",
       "Experientes no mercado",
       "Focado diretamente na solução",
-      "Cuidamos como se fosse nosso"
+      "+10 anos de experiência"
     ],
     "Why2": [
-      "Tecnologias Atualizadas",
+      "Tecnologias atualizadas",
       "Alinhados com o mercado",
       "Trajetória com clientes de peso",
       "Serviço de confiança"
@@ -87,9 +87,9 @@
       "text": "Nossa equipe tem experiência em projetos fintech, cobrindo desde a integração de sistemas de pagamento até o desenvolvimento de soluções inovadoras para análise de dados financeiros e segurança de transações."
     },
     {
-      "icon": "fa fa-newspaper-o",
-      "name": "Jornalismo",
-      "text": "Com expertise no setor jornalístico, nossa equipe colaborou em diversos projetos, desde o desenvolvimento de plataformas de distribuição de conteúdo até a criação de ferramentas para auxiliar na produção de notícias e na interação com os leitores."
+      "icon": "fa fa-laptop",
+      "name": "Assistência Técnica",
+      "text": "Com expertise no setor de assistência técnica, nossa equipe colabora em desenvolvimento de sistemas de gerenciamento de manutenção até a criação de ferramentas para auxiliar na resolução de problemas técnicos e na interação com os clientes."
     },
     {
       "icon": "fa fa-trophy",
@@ -125,7 +125,7 @@
     },
     {
       "img": "img/testimonials/06.jpg",
-      "text": "Estou extremamente feliz com o serviço prestado pela Kalify ! A equipe mostrou-se altamente profissional e inovadora desde o início do projeto até a sua conclusão.",
+      "text": "Estou extremamente feliz com o serviço prestado pela Lais e o Anderson! A equipe mostrou-se altamente profissional e inovadora desde o início do projeto até a sua conclusão.",
       "name": "Arthur Alves"
     }
   ],
@@ -147,16 +147,10 @@
       "name": "Gabriel Barbosa",
       "job": "Sócio & Desenvolvedor Back-end",
       "link": "https://github.com/gabrielUpON"
-    },
-    {
-      "img": "img/team/lucassouza.jpg",
-      "name": "Lucas Souza",
-      "job": "UX/UI Designer & Mobile Developer",
-      "link": "https://github.com/luczsz"
     }
   ],
   "Contact": {
-    "address": "Rua Serra de Macaé - Jardim São Fernando, Campinas - São Paulo",
+    "address": "Rua das Camélias - Chácara Primavera, Campinas - São Paulo",
     "phone": "+55 19 99801-8174",
     "email": "suportekindred@gmail.com",
     "twitter": "https://twitter.com/KalifyInc"
