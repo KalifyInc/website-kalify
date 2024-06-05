@@ -1,7 +1,7 @@
 {
   "Header": {
     "title": "Nós somos a Kalify Inc.",
-    "paragraph": "Desenvolvemos soluções através da tecnologia. Com nossos serviços e ideais entregamos experiências e soluções digitais que evoluem e inspiram pessoas e comunidades"
+    "paragraph": "Desenvolvemos soluções e oferecemos assistência técnica através da tecnologia. Com nossos serviços e ideais entregamos experiências e soluções digitais que evoluem e inspiram pessoas e comunidades."
   },
   "About": {
     "paragraph": "A Kalify Inc. é subsidiária da Kindred Software (setor privado) e é responsável por criar soluções através da web e dar assistência técnica, seja através de websites ou aplicativos, com o objetivo de resolver problemas, facilitar a vida das pessoas, informar e entreter, além de dar o suporte necessário para pedidos de clientes. Nosso foco é desenvolver soluções através da tecnologia.",
@@ -20,9 +20,19 @@
   },
   "Gallery": [
     {
+      "title": "FindYourPet",
+      "largeImage": "https://findyourpet.vercel.app/",
+      "smallImage": "img/portfolio/08-small.jpg"
+    },
+    {
       "title": "Creditis",
       "largeImage": "https://creditis.com.br/",
       "smallImage": "img/portfolio/01-small.jpg"
+    },
+    {
+      "title": "Enertrafo",
+      "largeImage": "https://enertrafo.com.br/",
+      "smallImage": "img/portfolio/05-small.jpg"
     },
     {
       "title": "Essentials",
@@ -39,11 +49,7 @@
       "largeImage": "https://justkindred.com.br",
       "smallImage": "img/portfolio/04-small.jpg"
     },
-    {
-      "title": "Enertrafo",
-      "largeImage": "https://enertrafo.com.br/",
-      "smallImage": "img/portfolio/05-small.jpg"
-    },
+    
     {
       "title": "Savage Commerce",
       "largeImage": "",
@@ -53,11 +59,6 @@
       "title": "Campinas Fighters",
       "largeImage": "",
       "smallImage": "img/portfolio/07-small.jpg"
-    },
-    {
-      "title": "FindYourPet",
-      "largeImage": "https://findyourpet.vercel.app/",
-      "smallImage": "img/portfolio/08-small.jpg"
     },
     {
       "title": "Naruto Inner Power",
@@ -152,6 +153,7 @@
   "Contact": {
     "address": "Rua das Camélias - Chácara Primavera, Campinas - São Paulo",
     "phone": "+55 19 99801-8174",
+    "phone2": "+55 19 99174-7634",
     "email": "suportekindred@gmail.com",
     "twitter": "https://twitter.com/KalifyInc"
   },
