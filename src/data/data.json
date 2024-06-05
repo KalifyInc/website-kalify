@@ -1,7 +1,7 @@
 {
   "Header": {
     "title": "Nós somos a Kalify Inc.",
-    "paragraph": "Desenvolvemos soluções e oferecemos assistência técnica através da tecnologia. Com nossos serviços e ideais entregamos experiências e soluções digitais que evoluem e inspiram pessoas e comunidades."
+    "paragraph": "Oferecemos assistência técnica, desenvolvimento web (sites, sistemas, lojas virtuais) e aplicativos. Com nossos serviços e ideais entregamos experiências e soluções digitais que evoluem e inspiram pessoas e comunidades."
   },
   "About": {
     "paragraph": "A Kalify Inc. é subsidiária da Kindred Software (setor privado) e é responsável por criar soluções através da web e dar assistência técnica, seja através de websites ou aplicativos, com o objetivo de resolver problemas, facilitar a vida das pessoas, informar e entreter, além de dar o suporte necessário para pedidos de clientes. Nosso foco é desenvolver soluções através da tecnologia.",
@@ -70,32 +70,32 @@
     {
       "icon": "fa fa-beer",
       "name": "Setor de Bebidas",
-      "text": "Nossa equipe já teve o privilégio de colaborar com empresas nos setores de bebidas, delivery e até mesmo participar do Hackathon da AMBEV, onde conquistamos o terceiro lugar."
+      "text": "Nossa equipe já teve o privilégio de colaborar com empresas nos setores de bebidas, delivery e até mesmo participar de eventos da AMBEV e iFood."
     },
     {
       "icon": "fa fa-cart-arrow-down",
       "name": "E-Commerce",
-      "text": "Nossa equipe tem uma vasta experiência em projetos de e-commerce, abrangendo desde integrações de pagamento até o desenvolvimento de dashboards e interfaces personalizadas para os clientes."
+      "text": "Nossa equipe tem uma vasta experiência em lojas virtuais, envolvendo desde integrações de pagamento até o desenvolvimento de dashboards e interfaces personalizadas para os clientes."
     },
     {
       "icon": "fa fa-android",
       "name": "Chatbot e Inteligência Artificial",
-      "text": "Na criação de sistemas de conversação inteligentes e eficientes, capazes de proporcionar uma experiência para os clientes, além de desenvolver algoritmos avançados para análise e tomada de decisões automatizadas."
+      "text": "Somos capazes de proporcionar e criar uma experiência para os clientes, além de desenvolver algoritmos avançados para análise e tomada de decisões automatizadas."
     },
     {
       "icon": "fa fa-money",
       "name": "Fintech",
-      "text": "Nossa equipe tem experiência em projetos fintech, cobrindo desde a integração de sistemas de pagamento até o desenvolvimento de soluções inovadoras para análise de dados financeiros e segurança de transações."
+      "text": "Trabalhos em projetos financeiros, cobrindo desde a integração de sistemas de pagamento até o desenvolvimento de soluções para análise de dados e segurança de transações."
     },
     {
       "icon": "fa fa-laptop",
       "name": "Assistência Técnica",
-      "text": "Com expertise no setor de assistência técnica, nossa equipe colabora em desenvolvimento de sistemas de gerenciamento de manutenção até a criação de ferramentas para auxiliar na resolução de problemas técnicos e na interação com os clientes."
+      "text": "Nossa equipe colabora em desenvolvimento, auxilio e gestão de sistemas, resolvendo aqueles problemas chatos com impressora, scanner e outros equipamentos de informação."
     },
     {
       "icon": "fa fa-trophy",
       "name": "eSports",
-      "text": "Nossa equipe se destacou na criação de plataformas, designs, sistemas de gerenciamento e desenvolvimento de aplicativos para comunidades de jogadores, oferecendo soluções inovadoras e personalizadas para esse mercado em constante evolução."
+      "text": "Criamos plataformas, designs, sistemas de gerenciamento e desenvolvimento de aplicativos para comunidades de jogadores, oferecendo soluções inovadoras e personalizadas."
     }
   ],
   "Testimonials": [
